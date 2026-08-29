@@ -146,7 +146,7 @@ export default function CharityRun() {
             </CardContent>
           </Card>
 
-          <Card className="relative mt-6 overflow-hidden">
+          <Card className="relative mt-6 min-h-[280px] overflow-hidden">
             <img
               src="/images/real/nukkad-network-card-bg.jpg"
               alt=""
@@ -154,7 +154,7 @@ export default function CharityRun() {
               className="absolute inset-0 h-full w-full object-cover opacity-70"
             />
             <div className="absolute inset-0 bg-card/40" />
-            <CardContent className="relative z-10">
+            <CardContent className="relative z-10 flex h-full flex-col justify-center">
               <p className="text-lg font-semibold text-primary">Built-in Nukkad Network</p>
               <p className="mt-3 text-sm text-muted-foreground">
                 Every stop doubles as a Nukkad Network seeding trip: meeting
@@ -255,9 +255,18 @@ export default function CharityRun() {
             <h2 className="text-3xl font-semibold tracking-tight">Route overview</h2>
             <p className="mt-3 text-muted-foreground">
               Start and finish in Ludhiana, Punjab: a clockwise loop of
-              roughly 14,600 km, with the highest-risk Northeast states
-              scheduled first and an island window (Andaman or Lakshadweep)
-              if the budget allows.
+              roughly 14,600 km, averaging about 5.2 hours of transit a
+              day. The Northeast goes first, since it carries the most
+              logistical risk, with two buffer days built in (Day 9 and
+              Day 19) in case anything slips.
+            </p>
+            <p className="mt-3 text-muted-foreground">
+              The route mixes 18 flights, 5 train legs (including a stretch
+              on the Vande Bharat), 3 overnight buses, and 4 self-drive
+              legs, with ILP and RAP permits already filed for Arunachal,
+              Nagaland, Manipur, and Port Blair. A Starlink kit backs up
+              daily uploads, and an island window (Andaman or Lakshadweep)
+              is in if the budget allows.
             </p>
           </div>
           <img

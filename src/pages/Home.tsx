@@ -271,9 +271,9 @@ export default function Home() {
           src="/images/real/economics-bg.jpg"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-cover opacity-25"
+          className="absolute inset-0 h-full w-full object-cover opacity-55"
         />
-        <div className="absolute inset-0 bg-foreground/80" />
+        <div className="absolute inset-0 bg-foreground/60" />
         <div className="relative z-10 mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-semibold tracking-tight text-background">Who's earning, who's vibing</h2>
           <p className="mt-2 max-w-2xl text-background/70">
