@@ -15,26 +15,37 @@ const cityStories = [
     city: 'Kochi',
     title: 'Where Art Escaped the Gallery',
     text: 'Your buddy is an artist from Mattancherry who paints murals and brews filter coffee. You skip the Biennale brochure and walk through lanes where abandoned warehouses turned into studios.',
+    img: '/images/real/city-kochi.jpg',
   },
   {
     city: 'Lucknow',
     title: 'Courtyards, Kebabs & Nawabi Grace',
     text: 'You\'re invited to a home where biryani doesn\'t come with a QR code. Your buddy\'s nani insists you try her secret galouti recipe, because food is trust.',
+    img: '/images/real/city-lucknow.jpg',
   },
   {
     city: 'Varanasi',
     title: 'The Ghats, Through a Local Lens',
     text: 'Instead of a tour, you walk with a Sanskrit student who tells you why one temple matters more than ten. Then share chai on the steps of silence.',
+    img: '/images/real/city-varanasi.jpg',
   },
   {
     city: 'Shillong',
     title: 'Hills, Momos & Indie Rock',
     text: 'It starts with a college hangout over momos, ends with an invite to a jam session on someone\'s rooftop. Welcome to the Khasi underground.',
+    img: '/images/real/city-shillong.jpg',
   },
   {
     city: 'Bhuj',
     title: 'Mud Homes & Master Crafts',
     text: 'A young artisan shows you how his family weaves stories into every thread. Then you help him pick fabric for a wedding gift, for someone he\'s never met.',
+    img: '/images/real/city-bhuj.jpg',
+  },
+  {
+    city: 'Jaipur',
+    title: 'Havelis Painted With Stories',
+    text: 'Your buddy grew up in a Shekhawati haveli covered floor to ceiling in hand-painted frescoes. She walks you through alleys where every wall is a mural nobody photographs for Instagram, because it was never meant to be a backdrop.',
+    img: '/images/real/city-jaipur.jpg',
   },
 ];
 
@@ -105,7 +116,7 @@ const faqs = [
 
 export default function Home() {
   return (
-    <div className="bg-background text-foreground">
+    <div>
       <Hero1
         brand="Nukkad Network"
         navLinks={NAV_LINKS}
@@ -179,27 +190,64 @@ export default function Home() {
         </div>
       </section>
 
+      {/* JALI BANNER — collage of three real lattice/archway photos */}
+      <section className="relative h-72 overflow-hidden md:h-96">
+        <div className="grid h-full grid-cols-3">
+          <img
+            src="/images/real/jali-room.jpg"
+            alt="Light falling through a jali lattice screen"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/images/real/fatehpur-arches.jpg"
+            alt="Carved sandstone jali corridor at Fatehpur Sikri"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/images/real/jali-closeup.jpg"
+            alt="Close-up of a carved jali lattice pattern"
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-foreground/55" />
+        <div className="relative z-10 flex h-full items-center justify-center px-5 text-center">
+          <p className="max-w-xl text-xl font-medium text-background md:text-2xl">
+            The same light falls through every jali screen. Nukkad Network is
+            about who's standing on the other side of it.
+          </p>
+        </div>
+      </section>
+
       {/* CITY STORIES */}
-      <section className="mx-auto max-w-4xl px-5 py-16">
+      <section className="mx-auto max-w-6xl px-5 py-16">
         <h2 className="text-3xl font-semibold tracking-tight">What a match could feel like</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          Five imagined scenarios from the concept deck, written to sell the
+          Six imagined scenarios from the concept deck, written to sell the
           idea. No cities are confirmed yet, and none of these are real
           Buddies.
         </p>
-        <div className="mt-10 space-y-8">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {cityStories.map((c, i) => (
-            <Card key={c.city}>
-              <CardContent className="grid grid-cols-[auto_1fr] gap-5">
-                <span className="text-4xl font-light text-muted-foreground/40">
+            <Card key={c.city} className="group relative overflow-hidden p-0">
+              <div className="relative aspect-[3/4] w-full">
+                <img
+                  src={c.img}
+                  alt={c.city}
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-foreground/20" />
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/95 via-foreground/35 to-transparent" />
+                <span className="absolute right-4 top-4 text-5xl font-light text-background/50 [text-shadow:0_1px_6px_rgb(0_0_0_/_0.5)]">
                   {String(i + 1).padStart(2, '0')}
                 </span>
-                <div>
-                  <Badge variant="outline" className="mb-1">{c.city}</Badge>
-                  <p className="text-xl font-semibold">{c.title}</p>
-                  <p className="mt-2 max-w-xl text-muted-foreground">{c.text}</p>
+                <div className="absolute inset-x-0 bottom-0 p-5">
+                  <Badge variant="outline" className="mb-2 border-background/40 text-background">
+                    {c.city}
+                  </Badge>
+                  <p className="text-xl font-semibold text-background">{c.title}</p>
+                  <p className="mt-2 text-sm text-background/85">{c.text}</p>
                 </div>
-              </CardContent>
+              </div>
             </Card>
           ))}
         </div>
@@ -301,17 +349,25 @@ export default function Home() {
       />
 
       {/* CTA */}
-      <section id="waitlist" className="mx-auto max-w-3xl px-5 py-20 text-center">
-        <h2 className="text-4xl font-semibold tracking-tight">You're not booking a trip.</h2>
-        <p className="mt-1 text-4xl font-semibold text-primary">You're making a connection.</p>
-        <p className="mx-auto mt-5 max-w-xl text-muted-foreground">
-          Nukkad Network is pre-launch. Right now, that means a real
-          conversation, not a form that goes nowhere. Tell us which city
-          you're in and whether you want to host or travel.
-        </p>
-        <Button asChild size="lg" className="mt-7">
-          <a href="mailto:ribhav28@gmail.com?subject=Nukkad%20Network%20-%20I%27m%20in">Email us, let's talk</a>
-        </Button>
+      <section id="waitlist" className="relative overflow-hidden py-20 text-center">
+        <img
+          src="/images/real/jali-closeup.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover opacity-[0.07]"
+        />
+        <div className="relative z-10 mx-auto max-w-3xl px-5">
+          <h2 className="text-4xl font-semibold tracking-tight">You're not booking a trip.</h2>
+          <p className="mt-1 text-4xl font-semibold text-primary">You're making a connection.</p>
+          <p className="mx-auto mt-5 max-w-xl text-muted-foreground">
+            Nukkad Network is pre-launch. Right now, that means a real
+            conversation, not a form that goes nowhere. Tell us which city
+            you're in and whether you want to host or travel.
+          </p>
+          <Button asChild size="lg" className="mt-7">
+            <a href="mailto:ribhav28@gmail.com?subject=Nukkad%20Network%20-%20I%27m%20in">Email us, let's talk</a>
+          </Button>
+        </div>
       </section>
 
       <Footer1

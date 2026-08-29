@@ -22,6 +22,10 @@
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
   --font-sans: var(--sans);
+  --font-caveat: 'Caveat', cursive;
+  --font-kalam: 'Kalam', cursive;
+  --font-marker: 'Permanent Marker', cursive;
+  --font-patrick: 'Patrick Hand', cursive;
 }
 
 :root {
@@ -63,7 +67,10 @@
 
 body {
   margin: 0;
-  background: hsl(var(--background));
+  background-color: hsl(var(--background));
+  background-image: linear-gradient(hsl(38 42% 93% / 0.82), hsl(38 42% 93% / 0.82)), url('/images/elephant-pattern.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, 320px 320px;
   color: hsl(var(--foreground));
 }
 

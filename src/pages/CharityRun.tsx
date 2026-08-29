@@ -3,6 +3,9 @@ import { Footer1 } from '@/components/ui/footer-1';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Play } from 'lucide-react';
+
+const INSPIRATION_PLAYLIST_URL = 'https://youtube.com/playlist?list=PLlhlb6SLQQJ9Bhq7jkSi9dLVmLjm9lVAa&si=TpkJr9fvIqZNMwa2';
 
 const NAV_LINKS = [
   { label: 'Nukkad Network', href: '/' },
@@ -33,9 +36,22 @@ const timeline = [
   { when: '+14 d', what: 'Impact documentary and sponsor ROI report' },
 ];
 
+const roadStops = [
+  { img: '/images/real/road-state-bus.jpg', caption: 'The "Gaadi-Free Gaadi" rule in one photo: 100 km, roof included.' },
+  { img: '/images/real/road-taxi-stand-sign.jpg', caption: 'Every taxi stand has its own hand-painted signage. No two look alike.' },
+  { img: '/images/real/road-bhel-puri-vendor.jpg', caption: 'Roadside food, not restaurant food, is the whole point of the No-English Day.' },
+];
+
 export default function CharityRun() {
   return (
-    <div className="bg-background text-foreground">
+    <div
+      style={{
+        backgroundImage:
+          "linear-gradient(hsl(38 42% 93% / 0.86), hsl(38 42% 93% / 0.86)), url('/images/vehicles-pattern.jpg')",
+        backgroundRepeat: 'no-repeat, repeat',
+        backgroundSize: '100% 100%, 320px 320px',
+      }}
+    >
       <Hero1
         brand="Nukkad Network"
         navLinks={NAV_LINKS}
@@ -46,6 +62,7 @@ export default function CharityRun() {
         signInLabel="Read the full plan (PDF)"
         signInHref="/docs/28-States-28-Days-plan.pdf"
         socialLinks={[{ label: 'Talk to Ribhav', href: 'mailto:ribhav28@gmail.com' }]}
+        backgroundVideo="/videos/charity-rickshaw.mp4"
         backgroundImage="/images/real/mumbai-vt-night.jpg"
       />
 
@@ -55,6 +72,34 @@ export default function CharityRun() {
           page reflects the plan as pitched. A fresh timeline is needed
           before anything else.
         </div>
+      </section>
+
+      {/* INSPIRATION */}
+      <section className="mx-auto max-w-3xl px-5 pt-6">
+        <a
+          href={INSPIRATION_PLAYLIST_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-4 rounded-lg border bg-card p-3 transition-colors hover:border-primary/40"
+        >
+          <span className="relative flex h-16 w-24 shrink-0 items-center justify-center overflow-hidden rounded-md">
+            <img
+              src="/images/real/ryan-trahan-thumb.png"
+              alt="Ryan Trahan, day 1 of 50 States in 50 Days"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <span className="absolute inset-0 bg-foreground/25 transition-colors group-hover:bg-foreground/10" />
+            <Play className="relative h-6 w-6 fill-background text-background drop-shadow" />
+          </span>
+          <span>
+            <span className="block text-sm font-semibold text-foreground group-hover:text-primary">
+              Inspired by Ryan Trahan's "50 States in 50 Days"
+            </span>
+            <span className="block text-xs text-muted-foreground">
+              YouTube playlist &middot; 50 videos &middot; opens on YouTube
+            </span>
+          </span>
+        </a>
       </section>
 
       {/* OBJECTIVES */}
@@ -106,36 +151,81 @@ export default function CharityRun() {
         </div>
       </section>
 
+      {/* SCENES FROM THE ROAD */}
+      <section className="border-t py-16">
+        <div className="mx-auto max-w-6xl px-5">
+          <h2 className="text-3xl font-semibold tracking-tight">Scenes from the road</h2>
+          <p className="mt-2 max-w-2xl text-muted-foreground">
+            Real photos from the kind of roads this run is actually on.
+          </p>
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            {roadStops.map((s) => (
+              <Card key={s.img} className="overflow-hidden py-0">
+                <img src={s.img} alt={s.caption} className="w-full" style={{ aspectRatio: '4/3', objectFit: 'cover' }} />
+                <CardContent className="py-4 text-sm text-muted-foreground">{s.caption}</CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CAUSE PARTNER */}
-      <section className="mx-auto max-w-4xl px-5 py-16">
-        <h2 className="text-3xl font-semibold tracking-tight">Cause partner: Cuddles Foundation</h2>
-        <ul className="mt-6 space-y-3 text-muted-foreground">
-          <li><b className="text-foreground">18,100 children</b> served across 42 hospitals in FY 2024.</li>
-          <li>Nutrition programmes lift survival odds by <b className="text-foreground">20 to 30 percent</b>.</li>
-          <li><b className="text-foreground">100 percent</b> of super-chat and merch profit flows through the GiveIndia API.</li>
-        </ul>
+      <section className="border-t py-16">
+        <div className="mx-auto max-w-6xl px-5">
+          <div className="grid gap-10 md:grid-cols-2 md:items-center">
+            <div>
+              <h2 className="text-3xl font-semibold tracking-tight">Cause partner: Cuddles Foundation</h2>
+              <ul className="mt-6 space-y-3 text-muted-foreground">
+                <li><b className="text-foreground">18,100 children</b> served across 42 hospitals in FY 2024.</li>
+                <li>Nutrition programmes lift survival odds by <b className="text-foreground">20 to 30 percent</b>.</li>
+                <li><b className="text-foreground">100 percent</b> of super-chat and merch profit flows through the GiveIndia API.</li>
+              </ul>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <img
+                src="/images/real/cuddles-kids-1.jpg"
+                alt="Children smiling, arms around each other"
+                className="w-full rounded-lg object-cover"
+                style={{ aspectRatio: '3/4' }}
+              />
+              <img
+                src="/images/real/cuddles-kids-2.jpg"
+                alt="A group of schoolchildren laughing together"
+                className="mt-8 w-full rounded-lg object-cover"
+                style={{ aspectRatio: '3/4' }}
+              />
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* DASHA DOOM */}
-      <section className="border-t bg-foreground py-16 text-background">
-        <div className="mx-auto max-w-4xl px-5">
+      <section className="relative overflow-hidden border-t bg-foreground py-16 text-background">
+        <video
+          src="/videos/dasha-doom-road.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover opacity-45"
+        />
+        <div className="absolute inset-0 bg-foreground/65" />
+        <div className="relative z-10 mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-semibold tracking-tight text-background">"Dasha Doom," the penalty wheel</h2>
           <p className="mt-2 max-w-2xl text-background/70">
             A live wheel that unlocks a new forfeit at every ₹1 lakh raised,
             the entertainment mechanic tying donations directly to what
             happens on screen.
           </p>
-          <ol className="mt-8 space-y-4">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {wheel.map((w, i) => (
-              <li key={w.name} className="flex gap-4">
-                <span className="text-2xl font-light text-primary">{i + 1}</span>
-                <div>
-                  <p className="font-semibold text-background">{w.name}</p>
-                  <p className="text-sm text-background/65">{w.text}</p>
-                </div>
-              </li>
+              <div key={w.name} className="rounded-lg border border-background/15 bg-background/10 p-4 backdrop-blur-sm">
+                <span className="text-3xl font-light text-primary">{String(i + 1).padStart(2, '0')}</span>
+                <p className="mt-2 font-semibold text-background">{w.name}</p>
+                <p className="mt-1 text-sm text-background/70">{w.text}</p>
+              </div>
             ))}
-          </ol>
+          </div>
         </div>
       </section>
 
