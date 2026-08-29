@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap');
+@plugin 'lightswind/plugin';
+
+:root {
+  --paper: #f4ecdf;
+  --paper-2: #ece1cd;
+  --ink: #2b1d14;
+  --ink-soft: #5a4636;
+  --rust: #c1552e;
+  --rust-dark: #9c4423;
+  --olive: #5b6b3f;
+  --border: #d8c7a8;
+  --card: #fffaf0;
+
+  --sans: 'Inter', system-ui, sans-serif;
+  --hand: 'Kalam', cursive;
+
+  font: 17px/1.55 var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(193, 85, 46, 0.05), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(91, 107, 63, 0.06), transparent 45%);
+}
+
+h1, h2, h3, .hand {
+  font-family: var(--hand);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.05;
+}
+
+a {
+  color: inherit;
+}
+
+.paper-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 6px 0 -2px rgba(43, 29, 20, 0.06), 0 12px 24px -8px rgba(43, 29, 20, 0.18);
+}
+
+.tag {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--card);
+  background: var(--ink);
+  padding: 4px 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+::selection {
+  background: var(--rust);
+  color: var(--card);
+}
