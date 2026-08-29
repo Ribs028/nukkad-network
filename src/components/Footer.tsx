@@ -4,10 +4,10 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-5 py-10 text-sm">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <p className="hand text-xl">Nukkad Network</p>
+            <p className="text-xl font-semibold" style={{ fontFamily: 'var(--display)' }}>Nukkad Network</p>
             <p className="mt-2 max-w-xs text-[var(--ink-soft)]">
               A friend at every street corner. Real people, real places, real
-              connections — India's human travel layer.
+              connections: India's human travel layer.
             </p>
           </div>
           <div>
@@ -54,8 +54,8 @@ export default function Footer() {
           </div>
         </div>
         <p className="mt-8 text-xs text-[var(--ink-soft)]">
-          Built by Ribhav Modi. Both Nukkad Network and 28 States · 28 Days are
-          pre-launch concepts — numbers on this site are targets, not results.
+          Built by Ribhav Modi. Both Nukkad Network and 28 States, 28 Days are
+          pre-launch concepts, so numbers on this site are targets, not results.
         </p>
       </div>
     </footer>

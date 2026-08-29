@@ -25,3 +25,5 @@ source/
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

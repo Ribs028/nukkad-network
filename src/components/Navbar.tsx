@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-        <NavLink to="/" className="hand text-2xl text-[var(--ink)]">
+        <NavLink to="/" className="text-2xl font-semibold text-[var(--ink)]" style={{ fontFamily: 'var(--display)' }}>
           Nukkad<span className="text-[var(--rust)]"> Network</span>
         </NavLink>
 
@@ -24,7 +24,7 @@ export default function Navbar() {
               to={t.to}
               end={t.end}
               className={({ isActive }) =>
-                `rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                `rounded-sm px-4 py-2 text-sm font-semibold transition-colors ${
                   isActive
                     ? 'bg-[var(--ink)] text-[var(--paper)]'
                     : 'text-[var(--ink-soft)] hover:bg-[var(--paper-2)]'
@@ -38,7 +38,7 @@ export default function Navbar() {
 
         <a
           href="#waitlist"
-          className="hidden rounded-full bg-[var(--rust)] px-5 py-2 text-sm font-bold text-white shadow-sm transition-transform hover:-translate-y-0.5 md:inline-block"
+          className="hidden rounded-sm bg-[var(--rust)] px-5 py-2 text-sm font-bold text-white shadow-sm transition-transform hover:-translate-y-0.5 md:inline-block"
         >
           Join the network
         </a>

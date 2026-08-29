@@ -1,22 +1,25 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap');
 @plugin 'lightswind/plugin';
 
 :root {
-  --paper: #f4ecdf;
-  --paper-2: #ece1cd;
-  --ink: #2b1d14;
-  --ink-soft: #5a4636;
-  --rust: #c1552e;
-  --rust-dark: #9c4423;
-  --olive: #5b6b3f;
-  --border: #d8c7a8;
-  --card: #fffaf0;
+  /* Full palette, deliberate roles. India-tinted neutrals, never pure black/white. */
+  --paper: oklch(96% 0.018 78);
+  --paper-2: oklch(93% 0.024 70);
+  --card: oklch(98.5% 0.012 78);
+  --ink: oklch(23% 0.03 48);
+  --ink-soft: oklch(42% 0.035 45);
+  --border: oklch(85% 0.03 65);
 
-  --sans: 'Inter', system-ui, sans-serif;
-  --hand: 'Kalam', cursive;
+  --rust: oklch(56% 0.16 35);
+  --rust-dark: oklch(44% 0.15 32);
+  --indigo: oklch(32% 0.07 265);
+  --indigo-soft: oklch(45% 0.06 265);
+  --gold: oklch(78% 0.14 85);
 
-  font: 17px/1.55 var(--sans);
+  --display: 'Fraunces', ui-serif, Georgia, serif;
+  --sans: 'Work Sans', system-ui, sans-serif;
+
+  font: 17px/1.6 var(--sans);
   color: var(--ink);
   background: var(--paper);
   font-synthesis: none;
@@ -31,43 +34,51 @@
 body {
   margin: 0;
   background: var(--paper);
-  background-image:
-    radial-gradient(circle at 20% 10%, rgba(193, 85, 46, 0.05), transparent 40%),
-    radial-gradient(circle at 85% 30%, rgba(91, 107, 63, 0.06), transparent 45%);
 }
 
-h1, h2, h3, .hand {
-  font-family: var(--hand);
-  font-weight: 700;
-  color: var(--ink);
-  line-height: 1.05;
+@layer base {
+  h1, h2, h3 {
+    font-family: var(--display);
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+  }
+}
+
+.script {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 500;
+}
+
+p {
+  max-width: 68ch;
 }
 
 a {
   color: inherit;
 }
 
-.paper-card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  box-shadow: 0 6px 0 -2px rgba(43, 29, 20, 0.06), 0 12px 24px -8px rgba(43, 29, 20, 0.18);
-}
-
 .tag {
   font-family: var(--sans);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--card);
+  color: var(--paper);
   background: var(--ink);
-  padding: 4px 10px;
-  border-radius: 999px;
+  padding: 5px 12px;
+  border-radius: 3px;
   display: inline-block;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--border);
 }
 
 ::selection {
   background: var(--rust);
-  color: var(--card);
+  color: var(--paper);
 }
