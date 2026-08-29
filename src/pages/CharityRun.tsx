@@ -36,11 +36,11 @@ const timeline = [
   { when: '+14 d', what: 'Impact documentary and sponsor ROI report' },
 ];
 
-const dailyRoadmap = [
-  { label: 'Morning', text: '28 vlogs total, one per state, 12 to 15 minutes each.' },
-  { label: 'Midday', text: 'A daily livestream: wheel spin, then a donation reveal.' },
-  { label: 'All day', text: '56 or more Shorts, Reels, and TikToks alongside the main series.' },
-  { label: 'Always on', text: 'A real-time donation ticker, via the GiveIndia API.' },
+const runOverview = [
+  { label: 'Day 1: Ludhiana', text: 'The clockwise loop across all 28 states begins.' },
+  { label: 'Every day', text: 'One vlog, one state, one new Buddy recruited for Nukkad Network.' },
+  { label: 'Every ₹1L raised', text: 'The "Dasha Doom" wheel spins live, unlocking the next forfeit.' },
+  { label: 'Day 28: Ludhiana', text: 'Back where it started, for the on-ground cheque hand-over.' },
 ];
 
 const roadStops = [
@@ -123,14 +123,14 @@ export default function CharityRun() {
 
           <Card className="mt-8">
             <CardContent>
-              <p className="text-lg font-semibold text-primary">Daily format</p>
+              <p className="text-lg font-semibold text-primary">How the run works</p>
               <p className="mt-1 text-sm text-muted-foreground">
-                What a single day of the run tentatively looks like.
+                The whole idea, tentatively, in one line: loop the country, post daily, let donations control the show.
               </p>
               <div className="relative mt-10 pb-2">
                 <div className="absolute left-4 top-2 bottom-2 w-px bg-primary/25 sm:left-0 sm:right-0 sm:top-4 sm:h-px sm:w-auto sm:bottom-auto" />
                 <div className="relative flex flex-col gap-8 sm:flex-row sm:justify-between sm:gap-4">
-                  {dailyRoadmap.map((step) => (
+                  {runOverview.map((step) => (
                     <div key={step.label} className="relative flex gap-4 sm:flex-1 sm:flex-col sm:items-center sm:gap-3 sm:text-center">
                       <span className="relative z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-sm">
                         <MapPin className="h-4 w-4" />
@@ -151,9 +151,9 @@ export default function CharityRun() {
               src="/images/real/nukkad-network-card-bg.jpg"
               alt=""
               aria-hidden="true"
-              className="absolute inset-0 h-full w-full object-cover opacity-40"
+              className="absolute inset-0 h-full w-full object-cover opacity-70"
             />
-            <div className="absolute inset-0 bg-card/70" />
+            <div className="absolute inset-0 bg-card/40" />
             <CardContent className="relative z-10">
               <p className="text-lg font-semibold text-primary">Built-in Nukkad Network</p>
               <p className="mt-3 text-sm text-muted-foreground">
@@ -345,6 +345,7 @@ export default function CharityRun() {
       <Footer1
         logo={<span className="text-2xl">🧭</span>}
         brandName="Nukkad Network"
+        backgroundImage="/images/real/footer-bg.jpg"
         newsletterTitle="Currently"
         newsletterDescription="Pre-launch concept. Numbers on this site are targets, not results."
         newsletterButtonText="Email us"

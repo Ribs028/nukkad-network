@@ -398,18 +398,10 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="relative">
-      <img
-        src="/images/real/footer-bg.jpg"
-        alt=""
-        aria-hidden="true"
-        className="absolute inset-0 h-full w-full object-cover opacity-60"
-      />
-      <div className="absolute inset-0 bg-background/35" />
-      <div className="relative z-10">
       <Footer1
         logo={<span className="text-2xl">🧭</span>}
         brandName="Nukkad Network"
+        backgroundImage="/images/real/footer-bg.jpg"
         newsletterTitle="Currently"
         newsletterDescription="Pre-launch concept. Numbers on this site are targets, not results."
         newsletterButtonText="Email us"
@@ -434,8 +426,6 @@ export default function Home() {
         ]}
         copyright="Built by Ribhav Modi. Both Nukkad Network and 28 States, 28 Days are pre-launch concepts."
       />
-      </div>
-      </div>
     </div>
   );
 }

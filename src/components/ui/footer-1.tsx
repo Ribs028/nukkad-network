@@ -20,6 +20,8 @@ export interface Footer1Props {
   newsletterButtonHref: string;
   linkGroups: FooterLinkGroup[];
   copyright: string;
+  /** Optional background image shown inside the card, behind the content */
+  backgroundImage?: string;
 }
 
 export function Footer1({
@@ -31,11 +33,23 @@ export function Footer1({
   newsletterButtonHref,
   linkGroups,
   copyright,
+  backgroundImage,
 }: Footer1Props) {
   return (
     <footer className=" w-full px-4 py-8 sm:px-6 lg:px-8">
-      <div className="bg-background mx-auto max-w-7xl rounded-none border p-8 shadow-sm sm:p-12">
-        <div className="flex flex-col justify-between gap-12 xl:flex-row xl:gap-24">
+      <div className="bg-background relative mx-auto max-w-7xl overflow-hidden rounded-none border p-8 shadow-sm sm:p-12">
+        {backgroundImage && (
+          <>
+            <img
+              src={backgroundImage}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover opacity-60"
+            />
+            <div className="bg-background/35 absolute inset-0" />
+          </>
+        )}
+        <div className="relative z-10 flex flex-col justify-between gap-12 xl:flex-row xl:gap-24">
           <div className="shrink-0 space-y-8 xl:w-[400px]">
             <div className="flex items-center gap-2">
               <div className="text-primary">{logo}</div>
@@ -76,7 +90,7 @@ export function Footer1({
           </div>
         </div>
 
-        <div className="mt-16 flex items-center justify-center border-t pt-8">
+        <div className="relative z-10 mt-16 flex items-center justify-center border-t pt-8">
           <p className="text-muted-foreground text-center text-xs">
             {copyright}
           </p>
