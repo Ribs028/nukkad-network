@@ -1,26 +1,34 @@
 @import 'tailwindcss';
 @plugin 'lightswind/plugin';
 
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --font-sans: var(--sans);
+}
+
 :root {
-  /* Full palette, deliberate roles. India-tinted neutrals, never pure black/white. */
-  --paper: oklch(96% 0.018 78);
-  --paper-2: oklch(93% 0.024 70);
-  --surface: oklch(98.5% 0.012 78);
-  --ink: oklch(23% 0.03 48);
-  --ink-soft: oklch(42% 0.035 45);
-  --edge: oklch(85% 0.03 65);
-
-  --rust: oklch(56% 0.16 35);
-  --rust-dark: oklch(44% 0.15 32);
-  --indigo: oklch(32% 0.07 265);
-  --indigo-soft: oklch(45% 0.06 265);
-  --gold: oklch(78% 0.14 85);
-
-  --display: 'Fraunces', ui-serif, Georgia, serif;
   --sans: 'Work Sans', system-ui, sans-serif;
 
-  /* shadcn/lightswind theme variables (HSL triplets), mapped to the palette
-     above so vendored components don't fall back to black/white defaults. */
+  /* Theme (HSL triplets, shadcn/lightswind convention). Warm, India-tinted
+     neutrals with a terracotta primary; never pure black/white. */
   --background: 38 42% 93%;
   --foreground: 25 30% 12%;
   --card: 40 55% 97%;
@@ -44,8 +52,6 @@
   --scrollbar-track: 38 30% 90%;
 
   font: 17px/1.6 var(--sans);
-  color: var(--ink);
-  background: var(--paper);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -57,14 +63,12 @@
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
 }
 
 @layer base {
   h1, h2, h3 {
-    font-family: var(--display);
-    font-weight: 600;
-    color: var(--ink);
     line-height: 1.08;
     letter-spacing: -0.01em;
   }
@@ -78,33 +82,7 @@ body {
   }
 }
 
-@layer components {
-  .script {
-    font-family: var(--display);
-    font-style: italic;
-    font-weight: 500;
-  }
-
-  .tag {
-    font-family: var(--sans);
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--paper);
-    background: var(--ink);
-    padding: 5px 12px;
-    border-radius: 3px;
-    display: inline-block;
-  }
-
-  .rule {
-    border: none;
-    border-top: 1px solid var(--edge);
-  }
-}
-
 ::selection {
-  background: var(--rust);
-  color: var(--paper);
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
 }
