@@ -225,6 +225,8 @@ export default function Hero1({
                 <div className="hidden md:block ml-4">
                     <a
                         href={signInHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center justify-center px-6 py-2.5 rounded-lg border border-white text-white text-base font-medium bg-transparent hover:border-white/50 hover:bg-white/5 transition-all duration-300"
                     >
                         {signInLabel}
@@ -302,6 +304,8 @@ export default function Hero1({
                         >
                             <a
                                 href={signInHref}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-full py-3.5 rounded-full border border-white/20 text-white text-center text-base font-medium bg-white/5 hover:bg-white/10 transition-colors"
                             >
                                 {signInLabel}
@@ -332,6 +336,8 @@ export default function Hero1({
                     <motion.div variants={itemVariants} className="w-fit">
                         <a
                             href={ctaHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-flex w-fit items-center gap-4 bg-white text-black font-medium text-sm p-1 pl-4 rounded-lg hover:bg-white/90 transition-all duration-300 shadow-[0_4px_16px_rgba(255,255,255,0.06)] group"
                         >
                             <span>{ctaLabel}</span>

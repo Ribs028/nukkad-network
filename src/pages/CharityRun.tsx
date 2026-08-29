@@ -3,7 +3,7 @@ import { Footer1 } from '@/components/ui/footer-1';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Play } from 'lucide-react';
+import { Play, MapPin } from 'lucide-react';
 
 const INSPIRATION_PLAYLIST_URL = 'https://youtube.com/playlist?list=PLlhlb6SLQQJ9Bhq7jkSi9dLVmLjm9lVAa&si=TpkJr9fvIqZNMwa2';
 
@@ -36,6 +36,13 @@ const timeline = [
   { when: '+14 d', what: 'Impact documentary and sponsor ROI report' },
 ];
 
+const dailyRoadmap = [
+  { label: 'Morning', text: '28 vlogs total, one per state, 12 to 15 minutes each.' },
+  { label: 'Midday', text: 'A daily livestream: wheel spin, then a donation reveal.' },
+  { label: 'All day', text: '56 or more Shorts, Reels, and TikToks alongside the main series.' },
+  { label: 'Always on', text: 'A real-time donation ticker, via the GiveIndia API.' },
+];
+
 const roadStops = [
   { img: '/images/real/road-state-bus.jpg', caption: 'The "Gaadi-Free Gaadi" rule in one photo: 100 km, roof included.' },
   { img: '/images/real/road-taxi-stand-sign.jpg', caption: 'Every taxi stand has its own hand-painted signage. No two look alike.' },
@@ -66,16 +73,8 @@ export default function CharityRun() {
         backgroundImage="/images/real/mumbai-vt-night.jpg"
       />
 
-      <section className="mx-auto max-w-3xl px-5 pt-10">
-        <div className="rounded-lg border border-primary/30 bg-primary/5 px-4 py-3 text-sm text-primary">
-          The original target launch, January 2026, has already passed. This
-          page reflects the plan as pitched. A fresh timeline is needed
-          before anything else.
-        </div>
-      </section>
-
       {/* INSPIRATION */}
-      <section className="mx-auto max-w-3xl px-5 pt-6">
+      <section className="mx-auto max-w-3xl px-5 pt-10">
         <a
           href={INSPIRATION_PLAYLIST_URL}
           target="_blank"
@@ -121,33 +120,53 @@ export default function CharityRun() {
       <section className="border-t bg-muted/30 py-16">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-semibold tracking-tight">The concept</h2>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <Card>
-              <CardContent>
-                <p className="text-lg font-semibold text-primary">Daily format</p>
-                <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  <li>28 vlogs of 12 to 15 minutes, one per day, one per state.</li>
-                  <li>A daily livestream: wheel spin, then a donation reveal.</li>
-                  <li>56 or more Shorts, Reels, and TikToks alongside the main series.</li>
-                  <li>A real-time donation ticker, via the GiveIndia API.</li>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent>
-                <p className="text-lg font-semibold text-primary">Built-in Nukkad Network</p>
-                <p className="mt-3 text-sm text-muted-foreground">
-                  Every stop doubles as a Nukkad Network seeding trip: meeting
-                  and recruiting real local Buddies in each city, alongside
-                  Bussin' streetwear drops. See the{' '}
-                  <a href="/" className="font-semibold text-primary underline">
-                    Nukkad Network
-                  </a>{' '}
-                  tab for what that platform actually is.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+
+          <Card className="mt-8">
+            <CardContent>
+              <p className="text-lg font-semibold text-primary">Daily format</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                What a single day of the run tentatively looks like.
+              </p>
+              <div className="relative mt-10 pb-2">
+                <div className="absolute left-4 top-2 bottom-2 w-px bg-primary/25 sm:left-0 sm:right-0 sm:top-4 sm:h-px sm:w-auto sm:bottom-auto" />
+                <div className="relative flex flex-col gap-8 sm:flex-row sm:justify-between sm:gap-4">
+                  {dailyRoadmap.map((step) => (
+                    <div key={step.label} className="relative flex gap-4 sm:flex-1 sm:flex-col sm:items-center sm:gap-3 sm:text-center">
+                      <span className="relative z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-sm">
+                        <MapPin className="h-4 w-4" />
+                      </span>
+                      <div className="sm:max-w-[170px]">
+                        <p className="text-sm font-semibold text-foreground">{step.label}</p>
+                        <p className="mt-1 text-sm text-muted-foreground">{step.text}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="relative mt-6 overflow-hidden">
+            <img
+              src="/images/real/nukkad-network-card-bg.jpg"
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover opacity-40"
+            />
+            <div className="absolute inset-0 bg-card/70" />
+            <CardContent className="relative z-10">
+              <p className="text-lg font-semibold text-primary">Built-in Nukkad Network</p>
+              <p className="mt-3 text-sm text-muted-foreground">
+                Every stop doubles as a Nukkad Network seeding trip: meeting
+                and recruiting real local Buddies in each city, alongside
+                Bussin' streetwear drops. See the{' '}
+                <a href="/" className="font-semibold text-primary underline">
+                  Nukkad Network
+                </a>{' '}
+                tab for what that platform actually is.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 

@@ -5,6 +5,8 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+const TELEGRAM_URL = 'https://t.me/+PNFT_zYNRjM5MDJl';
+
 const NAV_LINKS = [
   { label: 'Nukkad Network', href: '/', active: true },
   { label: '28 States · 28 Days', href: '/charity-run' },
@@ -57,12 +59,12 @@ const buddyPhotos = [
 ];
 
 const travelerAudiences = [
-  'Foreign travelers seeking authenticity',
-  'Indian solo explorers',
-  'Digital nomads',
-  'Business travelers in Tier-2 cities',
-  'Influencer travelers',
-  'International students',
+  { label: 'Foreign travelers seeking authenticity', img: '/images/real/audience-foreign-traveler.jpg' },
+  { label: 'Indian solo explorers', img: '/images/real/audience-indian-explorer.jpg' },
+  { label: 'Digital nomads', img: '/images/real/audience-digital-nomad.jpg' },
+  { label: 'Business travelers in Tier-2 cities', img: '/images/real/audience-business-traveler.jpg' },
+  { label: 'Influencer travelers', img: '/images/real/audience-influencer.jpg' },
+  { label: 'International students', img: '/images/real/audience-student.jpg' },
 ];
 
 const competitors = [
@@ -123,9 +125,9 @@ export default function Home() {
         headline={<>A friend at every<br />street corner.</>}
         description={'No more lonely layovers. Land anywhere, be known everywhere.\nReal people, real places, real connections. Not a tour, a friendship.'}
         ctaLabel="Become a Buddy"
-        ctaHref="mailto:ribhav28@gmail.com?subject=I%20want%20to%20be%20a%20Nukkad%20Buddy"
+        ctaHref={TELEGRAM_URL}
         signInLabel="Find a Buddy"
-        signInHref="mailto:ribhav28@gmail.com?subject=I%20want%20to%20find%20a%20Nukkad%20Buddy"
+        signInHref={TELEGRAM_URL}
         socialLinks={[
           { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ribhavmodi0528/' },
           { label: 'X', href: 'https://x.com/RibsModi' },
@@ -154,11 +156,21 @@ export default function Home() {
       <section className="border-t bg-muted/30 py-16">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-semibold tracking-tight">Who's this for</h2>
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="mt-8 grid gap-4 grid-cols-2 lg:grid-cols-3">
             {travelerAudiences.map((a) => (
-              <Badge key={a} variant="secondary" className="px-4 py-2 text-sm">
-                {a}
-              </Badge>
+              <div key={a.label} className="group relative overflow-hidden rounded-lg">
+                <div className="relative aspect-[4/3] w-full">
+                  <img
+                    src={a.img}
+                    alt={a.label}
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/10 to-transparent" />
+                  <p className="absolute inset-x-0 bottom-0 p-3 text-sm font-semibold text-background">
+                    {a.label}
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -254,8 +266,15 @@ export default function Home() {
       </section>
 
       {/* ECONOMICS */}
-      <section className="border-t bg-foreground py-16 text-background">
-        <div className="mx-auto max-w-6xl px-5">
+      <section className="relative overflow-hidden border-t bg-foreground py-16 text-background">
+        <img
+          src="/images/real/economics-bg.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover opacity-25"
+        />
+        <div className="absolute inset-0 bg-foreground/80" />
+        <div className="relative z-10 mx-auto max-w-6xl px-5">
           <h2 className="text-3xl font-semibold tracking-tight text-background">Who's earning, who's vibing</h2>
           <p className="mt-2 max-w-2xl text-background/70">
             This isn't a platform. It's a people-powered circle where value
@@ -326,11 +345,20 @@ export default function Home() {
       {/* DECK GALLERY */}
       <section className="border-t bg-muted/30 py-16">
         <div className="mx-auto max-w-6xl px-5">
-          <h2 className="text-3xl font-semibold tracking-tight">From the pitch deck</h2>
-          <p className="mt-2 max-w-2xl text-muted-foreground">
-            A few slides from the deck this page is built from, in their
-            original form.
-          </p>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 className="text-3xl font-semibold tracking-tight">From the pitch deck</h2>
+              <p className="mt-2 max-w-2xl text-muted-foreground">
+                A few slides from the deck this page is built from, in their
+                original form.
+              </p>
+            </div>
+            <Button asChild variant="outline">
+              <a href="/docs/Nukkad-Network-Deck.pdf" target="_blank" rel="noopener noreferrer">
+                Read the full deck (PDF)
+              </a>
+            </Button>
+          </div>
           <div className="mt-8 grid gap-5 md:grid-cols-2">
             {deckSlides.map((s) => (
               <Card key={s.src} className="overflow-hidden py-0">
@@ -370,6 +398,15 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="relative">
+      <img
+        src="/images/real/footer-bg.jpg"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover opacity-60"
+      />
+      <div className="absolute inset-0 bg-background/35" />
+      <div className="relative z-10">
       <Footer1
         logo={<span className="text-2xl">🧭</span>}
         brandName="Nukkad Network"
@@ -383,7 +420,7 @@ export default function Home() {
             links: [
               { label: 'Nukkad Network', href: '/' },
               { label: '28 States · 28 Days', href: '/charity-run' },
-              { label: 'Become a Buddy', href: '#waitlist' },
+              { label: 'Become a Buddy', href: TELEGRAM_URL },
             ],
           },
           {
@@ -397,6 +434,8 @@ export default function Home() {
         ]}
         copyright="Built by Ribhav Modi. Both Nukkad Network and 28 States, 28 Days are pre-launch concepts."
       />
+      </div>
+      </div>
     </div>
   );
 }
