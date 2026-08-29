@@ -1,5 +1,4 @@
 import { Badge } from '@/components/lightswind/badge';
-import CityNetwork from '@/components/CityNetwork';
 
 const cityStories = [
   {
@@ -67,7 +66,7 @@ export default function Home() {
   return (
     <div>
       {/* HERO */}
-      <section className="relative overflow-hidden border-b border-[var(--border)]" style={{ background: 'var(--ink)' }}>
+      <section className="relative overflow-hidden border-b border-[var(--edge)]" style={{ background: 'var(--ink)' }}>
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-20 md:grid-cols-[1.1fr_0.9fr] md:py-28">
           <div className="relative z-10 text-[var(--paper)]">
             <span className="tag" style={{ background: 'var(--rust)' }}>
@@ -126,7 +125,7 @@ export default function Home() {
       </section>
 
       {/* WHO'S THIS FOR */}
-      <section className="border-t border-[var(--border)] bg-[var(--paper-2)] py-16">
+      <section className="border-t border-[var(--edge)] bg-[var(--paper-2)] py-16">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl">Who's this for</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
@@ -146,7 +145,7 @@ export default function Home() {
           </div>
           <div className="mt-8 flex flex-wrap gap-2">
             {otherAudiences.map((a) => (
-              <Badge key={a} className="!bg-[var(--card)] !border-[var(--border)] !text-[var(--ink)] px-4 py-2 text-sm">
+              <Badge key={a} className="!bg-[var(--surface)] !border-[var(--edge)] !text-[var(--ink)] px-4 py-2 text-sm">
                 {a}
               </Badge>
             ))}
@@ -156,13 +155,18 @@ export default function Home() {
 
       {/* CITY STORIES, editorial list */}
       <section className="mx-auto max-w-4xl px-5 py-16">
-        <h2 className="text-3xl">See cities through the eyes of locals</h2>
+        <h2 className="text-3xl">What a match could feel like</h2>
+        <p className="mt-2 text-sm text-[var(--ink-soft)]/70">
+          Five imagined scenarios from the concept deck, written to sell the
+          idea. No cities are confirmed yet, and none of these are real
+          Buddies.
+        </p>
         <div className="mt-10 space-y-10">
           {cityStories.map((c, i) => (
             <div key={c.city} className="grid grid-cols-[auto_1fr] gap-5">
               <span
                 className="text-4xl font-light"
-                style={{ fontFamily: 'var(--display)', color: 'var(--border)' }}
+                style={{ fontFamily: 'var(--display)', color: 'var(--edge)' }}
               >
                 {String(i + 1).padStart(2, '0')}
               </span>
@@ -179,7 +183,7 @@ export default function Home() {
       </section>
 
       {/* ECONOMICS */}
-      <section className="border-t border-[var(--border)] bg-[var(--ink)] py-16 text-[var(--paper)]">
+      <section className="border-t border-[var(--edge)] bg-[var(--ink)] py-16 text-[var(--paper)]">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl text-[var(--paper)]">Who's earning, who's vibing</h2>
           <p className="mt-2 max-w-2xl text-[var(--paper)]/70">
@@ -215,21 +219,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NETWORK MAP */}
-      <section className="border-t border-white/10 py-16 text-[var(--paper)]" style={{ background: 'var(--indigo)' }}>
-        <div className="mx-auto max-w-4xl px-5 text-center">
-          <h2 className="text-3xl text-[var(--paper)]">Where Buddies live</h2>
-          <p className="mx-auto mt-2 max-w-xl text-[var(--paper)]/65">
-            An early look at the cities from the deck's own city-spotlight
-            stories, the first places Nukkad Network would seed with real
-            Buddies.
-          </p>
-          <div className="mt-10">
-            <CityNetwork />
-          </div>
-        </div>
-      </section>
-
       {/* COMPETITIVE LANDSCAPE */}
       <section className="mx-auto max-w-4xl px-5 py-16">
         <h2 className="text-3xl">The missing piece</h2>
@@ -251,7 +240,7 @@ export default function Home() {
               {competitors.map((c) => (
                 <tr
                   key={c.name}
-                  className="border-b border-[var(--border)]"
+                  className="border-b border-[var(--edge)]"
                   style={c.highlight ? { background: 'rgba(193,85,46,0.08)' } : undefined}
                 >
                   <td className={`py-3 pr-4 ${c.highlight ? 'font-bold' : ''}`}>{c.name}</td>
@@ -266,7 +255,7 @@ export default function Home() {
       </section>
 
       {/* DECK GALLERY */}
-      <section className="border-t border-[var(--border)] bg-[var(--paper-2)] py-16">
+      <section className="border-t border-[var(--edge)] bg-[var(--paper-2)] py-16">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl">From the pitch deck</h2>
           <p className="mt-2 max-w-2xl text-[var(--ink-soft)]">
@@ -279,7 +268,7 @@ export default function Home() {
                 <img
                   src={s.src}
                   alt={s.caption}
-                  className="w-full rounded-sm border border-[var(--border)] shadow-md"
+                  className="w-full rounded-sm border border-[var(--edge)] shadow-md"
                 />
                 <figcaption className="mt-2 text-sm text-[var(--ink-soft)]">{s.caption}</figcaption>
               </figure>

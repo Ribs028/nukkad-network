@@ -11,7 +11,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--paper)]/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-[var(--edge)] bg-[var(--paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <NavLink to="/" className="text-2xl font-semibold text-[var(--ink)]" style={{ fontFamily: 'var(--display)' }}>
           Nukkad<span className="text-[var(--rust)]"> Network</span>
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="flex flex-col gap-1 border-t border-[var(--border)] px-5 py-3 md:hidden">
+        <div className="flex flex-col gap-1 border-t border-[var(--edge)] px-5 py-3 md:hidden">
           {tabs.map((t) => (
             <NavLink
               key={t.to}

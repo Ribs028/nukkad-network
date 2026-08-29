@@ -26,7 +26,7 @@ export default function CharityRun() {
   return (
     <div>
       {/* HERO */}
-      <section className="border-b border-[var(--border)] py-20" style={{ background: 'var(--indigo)' }}>
+      <section className="border-b border-[var(--edge)] py-20" style={{ background: 'var(--indigo)' }}>
         <div className="mx-auto max-w-3xl px-5 text-center text-[var(--paper)]">
           <span className="tag" style={{ background: 'var(--gold)', color: 'var(--ink)' }}>
             India charity sprint for childhood-cancer nutrition
@@ -78,7 +78,7 @@ export default function CharityRun() {
       </section>
 
       {/* CONCEPT */}
-      <section className="border-t border-[var(--border)] bg-[var(--paper-2)] py-16">
+      <section className="border-t border-[var(--edge)] bg-[var(--paper-2)] py-16">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-3xl">The concept</h2>
           <div className="mt-8 grid gap-10 md:grid-cols-2">
@@ -118,7 +118,7 @@ export default function CharityRun() {
       </section>
 
       {/* DASHA DOOM */}
-      <section className="border-t border-[var(--border)] py-16 text-[var(--paper)]" style={{ background: 'var(--ink)' }}>
+      <section className="border-t border-[var(--edge)] py-16 text-[var(--paper)]" style={{ background: 'var(--ink)' }}>
         <div className="mx-auto max-w-4xl px-5">
           <h2 className="text-3xl text-[var(--paper)]">"Dasha Doom," the penalty wheel</h2>
           <p className="mt-2 max-w-2xl text-[var(--paper)]/70">
@@ -154,7 +154,7 @@ export default function CharityRun() {
       </section>
 
       {/* BUDGET */}
-      <section className="border-t border-[var(--border)] bg-[var(--paper-2)] py-16">
+      <section className="border-t border-[var(--edge)] bg-[var(--paper-2)] py-16">
         <div className="mx-auto max-w-3xl px-5">
           <h2 className="text-3xl">Budget snapshot (INR lakh)</h2>
           <table className="mt-6 w-full border-collapse text-sm">
@@ -167,18 +167,18 @@ export default function CharityRun() {
             </thead>
             <tbody>
               {budget.map((b) => (
-                <tr key={b.item} className="border-b border-[var(--border)]">
+                <tr key={b.item} className="border-b border-[var(--edge)]">
                   <td className="py-3 pr-4">{b.item}</td>
                   <td className="py-3 pr-4">₹{b.cost}L</td>
                   <td className="py-3 text-[var(--ink-soft)]">{b.notes}</td>
                 </tr>
               ))}
-              <tr className="border-b border-[var(--border)] font-bold">
+              <tr className="border-b border-[var(--edge)] font-bold">
                 <td className="py-3 pr-4">Total cash out</td>
                 <td className="py-3 pr-4">₹40L</td>
                 <td className="py-3"></td>
               </tr>
-              <tr className="border-b border-[var(--border)] font-bold" style={{ color: 'var(--indigo)' }}>
+              <tr className="border-b border-[var(--edge)] font-bold" style={{ color: 'var(--indigo)' }}>
                 <td className="py-3 pr-4">Revenue in</td>
                 <td className="py-3 pr-4">₹80L</td>
                 <td className="py-3 font-normal text-[var(--ink-soft)]">65 sponsorship, 8 merch, 7 ads</td>
@@ -210,7 +210,7 @@ export default function CharityRun() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-[var(--border)] py-20 text-center" style={{ background: 'var(--paper-2)' }}>
+      <section className="border-t border-[var(--edge)] py-20 text-center" style={{ background: 'var(--paper-2)' }}>
         <div className="mx-auto max-w-3xl px-5">
           <h2 className="text-4xl">The ask, for sponsors</h2>
           <p className="mx-auto mt-4 max-w-xl text-[var(--ink-soft)]">

@@ -5,10 +5,10 @@
   /* Full palette, deliberate roles. India-tinted neutrals, never pure black/white. */
   --paper: oklch(96% 0.018 78);
   --paper-2: oklch(93% 0.024 70);
-  --card: oklch(98.5% 0.012 78);
+  --surface: oklch(98.5% 0.012 78);
   --ink: oklch(23% 0.03 48);
   --ink-soft: oklch(42% 0.035 45);
-  --border: oklch(85% 0.03 65);
+  --edge: oklch(85% 0.03 65);
 
   --rust: oklch(56% 0.16 35);
   --rust-dark: oklch(44% 0.15 32);
@@ -18,6 +18,30 @@
 
   --display: 'Fraunces', ui-serif, Georgia, serif;
   --sans: 'Work Sans', system-ui, sans-serif;
+
+  /* shadcn/lightswind theme variables (HSL triplets), mapped to the palette
+     above so vendored components don't fall back to black/white defaults. */
+  --background: 38 42% 93%;
+  --foreground: 25 30% 12%;
+  --card: 40 55% 97%;
+  --card-foreground: 25 30% 12%;
+  --popover: 40 55% 97%;
+  --popover-foreground: 25 30% 12%;
+  --primary: 15 55% 45%;
+  --primary-foreground: 38 45% 96%;
+  --secondary: 265 15% 30%;
+  --secondary-foreground: 38 45% 96%;
+  --muted: 35 25% 88%;
+  --muted-foreground: 25 15% 35%;
+  --accent: 42 70% 65%;
+  --accent-foreground: 25 30% 12%;
+  --destructive: 5 65% 45%;
+  --destructive-foreground: 38 45% 96%;
+  --border: 35 28% 78%;
+  --input: 35 28% 78%;
+  --ring: 15 55% 45%;
+  --scrollbar-thumb: 35 20% 70%;
+  --scrollbar-track: 38 30% 90%;
 
   font: 17px/1.6 var(--sans);
   color: var(--ink);
@@ -44,38 +68,40 @@ body {
     line-height: 1.08;
     letter-spacing: -0.01em;
   }
+
+  p {
+    max-width: 68ch;
+  }
+
+  a {
+    color: inherit;
+  }
 }
 
-.script {
-  font-family: var(--display);
-  font-style: italic;
-  font-weight: 500;
-}
+@layer components {
+  .script {
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 500;
+  }
 
-p {
-  max-width: 68ch;
-}
+  .tag {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--ink);
+    padding: 5px 12px;
+    border-radius: 3px;
+    display: inline-block;
+  }
 
-a {
-  color: inherit;
-}
-
-.tag {
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--paper);
-  background: var(--ink);
-  padding: 5px 12px;
-  border-radius: 3px;
-  display: inline-block;
-}
-
-.rule {
-  border: none;
-  border-top: 1px solid var(--border);
+  .rule {
+    border: none;
+    border-top: 1px solid var(--edge);
+  }
 }
 
 ::selection {
