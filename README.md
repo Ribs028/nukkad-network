@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+# Nukkad Network
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A friend at every street corner. A concept site for matching travelers with real local "Buddies" in Indian cities, plus a companion page for the **28 States, 28 Days** charity run concept.
 
-Currently, two official plugins are available:
+**Live: [nukkad-network.vercel.app](https://nukkad-network.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Both Nukkad Network and 28 States, 28 Days are pre-launch concepts — nothing here is live product, and the numbers on the site are targets, not results.
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `/` — Nukkad Network: the core pitch, city stories, and the Buddy economics
+- `/charity-run` — 28 States, 28 Days: the charity run concept, inspired by Ryan Trahan's "50 States in 50 Days"
 
-## Expanding the Oxlint configuration
+## Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui-style components (Watermelon UI registry), React Router.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Development
+
+```bash
+npm install
+npm run dev
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
