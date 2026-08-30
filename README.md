@@ -4,7 +4,7 @@ A friend at every street corner. A concept site for matching travelers with real
 
 **Live: [nukkad-network.vercel.app](https://nukkad-network.vercel.app)**
 
-Both Nukkad Network and 28 States, 28 Days are pre-launch concepts — nothing here is live product, and the numbers on the site are targets, not results.
+Both Nukkad Network and 28 States, 28 Days are pre-launch concepts. Nothing here is live product, and the numbers on the site are targets, not results.
 
 ## Pages
 
