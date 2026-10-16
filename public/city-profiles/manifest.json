@@ -1,0 +1,124 @@
+{
+  "checked": "2026-10-17",
+  "totalCities": 7135,
+  "batchSize": 500,
+  "totalBatches": 15,
+  "batches": [
+    {
+      "batch": 1,
+      "count": 500,
+      "referenced": 466,
+      "checked": "2026-10-17",
+      "online": true,
+      "communityResearch": {
+        "checked": "2026-10-17",
+        "status": "source_discovery_complete",
+        "cities": 500,
+        "evidenceQueueComplete": 472,
+        "reviewedGuides": 1,
+        "coveredByParentCity": 11,
+        "evidenceGaps": 16,
+        "note": "Source discovery is complete. Recommendations remain unpublished until an editor reviews the sources and verifies current venue details."
+      }
+    },
+    {
+      "batch": 2,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 3,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 4,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 5,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 6,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 7,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 8,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 9,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 10,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 11,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 12,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 13,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 14,
+      "count": 500,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    },
+    {
+      "batch": 15,
+      "count": 135,
+      "referenced": 0,
+      "checked": "2026-10-17",
+      "online": false
+    }
+  ],
+  "note": "Batch 1 source discovery is complete. Reference profiles and source queues do not become recommendations until editorial review and current venue verification are complete."
+}

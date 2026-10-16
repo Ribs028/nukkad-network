@@ -9,6 +9,8 @@ const INSPIRATION_PLAYLIST_URL = 'https://youtube.com/playlist?list=PLlhlb6SLQQJ
 
 const NAV_LINKS = [
   { label: 'Nukkad Network', href: '/' },
+  { label: 'Explore India', href: '/explore' },
+  { label: 'Let\'s Do Business', href: '/business' },
   { label: '28 States · 28 Days', href: '/charity-run', active: true },
 ];
 
@@ -364,7 +366,8 @@ export default function CharityRun() {
             title: 'Explore',
             links: [
               { label: 'Nukkad Network', href: '/' },
-              { label: '28 States · 28 Days', href: '/charity-run' },
+              { label: 'Explore India', href: '/explore' },
+  { label: '28 States · 28 Days', href: '/charity-run' },
             ],
           },
           {

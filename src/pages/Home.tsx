@@ -9,6 +9,8 @@ const TELEGRAM_URL = 'https://t.me/+PNFT_zYNRjM5MDJl';
 
 const NAV_LINKS = [
   { label: 'Nukkad Network', href: '/', active: true },
+  { label: 'Explore India', href: '/explore' },
+  { label: 'Let\'s Do Business', href: '/business' },
   { label: '28 States · 28 Days', href: '/charity-run' },
 ];
 
@@ -124,8 +126,8 @@ export default function Home() {
         navLinks={NAV_LINKS}
         headline={<>A friend at every<br />street corner.</>}
         description={'No more lonely layovers. Land anywhere, be known everywhere.\nReal people, real places, real connections. Not a tour, a friendship.'}
-        ctaLabel="Become a Buddy"
-        ctaHref={TELEGRAM_URL}
+        ctaLabel="Explore like a local"
+        ctaHref="/explore"
         signInLabel="Find a Buddy"
         signInHref={TELEGRAM_URL}
         socialLinks={[
@@ -411,7 +413,8 @@ export default function Home() {
             title: 'Explore',
             links: [
               { label: 'Nukkad Network', href: '/' },
-              { label: '28 States · 28 Days', href: '/charity-run' },
+              { label: 'Explore India', href: '/explore' },
+  { label: '28 States · 28 Days', href: '/charity-run' },
               { label: 'Become a Buddy', href: TELEGRAM_URL },
             ],
           },

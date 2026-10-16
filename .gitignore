@@ -27,3 +27,7 @@ source/
 *.sw?
 
 .vercel
+
+# Python cache
+__pycache__/
+*.pyc

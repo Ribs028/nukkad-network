@@ -1,0 +1,715 @@
+{
+  "citySlug": "jaipur",
+  "title": "Pink walls.\nYour own little detours.",
+  "intro": "Start with chai, wander through a market, and leave time for the turn you hadn’t planned. These are research-backed leads from Jaipur conversations, with the disagreements left in.",
+  "checked": "2026-10-17",
+  "status": "partial",
+  "sources": [
+    {
+      "id": "breakfast",
+      "title": "Breakfast suggestions from r/jaipur",
+      "url": "https://www.reddit.com/r/jaipur/comments/1vq8imw/need_breakfast_recommendations_in_jaipur/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index excerpt reviewed; full thread could not be retrieved. Suggestions, not a verified ranking."
+    },
+    {
+      "id": "family",
+      "title": "A family visit: food and sights",
+      "url": "https://www.reddit.com/r/jaipur/comments/1uttn5c/hey_im_visiting_jaipur_next_week_with_my_mother/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. Includes disagreement about Rawat; branch details need checking."
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping and sightseeing suggestions",
+      "url": "https://www.reddit.com/r/jaipur/comments/1wehay0/planning_a_jaipur_trip_recommendations_for/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed; full-page fetch unavailable. Recommendations are individual opinions."
+    },
+    {
+      "id": "underrated",
+      "title": "Restaurants and less obvious stops",
+      "url": "https://www.reddit.com/r/jaipur/comments/1u0513j/best_hotelrestaurantunderrated_tourist_spots/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Full discussion reviewed. Several venues have only one recommendation here."
+    },
+    {
+      "id": "food",
+      "title": "A personal Jaipur food guide",
+      "url": "https://www.reddit.com/r/jaipur/comments/1meoxtd/jaipur_local_food_guide_curated_from_my_personal/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Full discussion reviewed. Author identifies as a food vlogger and mentions tasting invitations; possible promotional bias."
+    },
+    {
+      "id": "clubs",
+      "title": "Clubbing in Jaipur: mixed experiences",
+      "url": "https://www.reddit.com/r/jaipur/comments/1pvcose/clubbing_in_jaipur/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Full discussion reviewed. One commenter recommends Rosado, Ora and Oslo; others disagree on the wider nightlife experience. No safety guarantee."
+    },
+    {
+      "id": "trip",
+      "title": "Recent Jaipur trip tips",
+      "url": "https://www.reddit.com/r/jaipur/comments/1x39xup/jaipur_trip_tips/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. Cultural events and venue access must be checked for the travel date."
+    },
+    {
+      "id": "visiting",
+      "title": "If you are visiting Jaipur",
+      "url": "https://www.reddit.com/r/jaipur/comments/1rv6nwp/if_you_are_visiting_jaipur/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. Includes differing views about transport and visiting at night."
+    },
+    {
+      "id": "budget",
+      "title": "Budget shopping: Bapu and Johari",
+      "url": "https://www.reddit.com/r/jaipur/comments/1gzegd1/visiting_jaipur_soon_need_budgetfriendly_shopping/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Older discussion reviewed via search. Useful for market types, not current prices."
+    },
+    {
+      "id": "layover",
+      "title": "Food stops during a Jaipur layover",
+      "url": "https://www.reddit.com/r/jaipur/comments/1rqvkwx/having_a_95hour_layover_in_jaipur_what_are_the/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. The suggested itinerary is not a timed route test."
+    },
+    {
+      "id": "evening",
+      "title": "An older food and evening itinerary",
+      "url": "https://www.reddit.com/r/jaipur/comments/1gjkcbj",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Older discussion reviewed via search. Dinner suggestions need a current opening check."
+    },
+    {
+      "id": "reality",
+      "title": "Reels versus the actual visit",
+      "url": "https://www.reddit.com/r/jaipur/comments/1t0mmx2/places_not_to_go_in_jaipur_the_reels_vs_the/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. Important counter-evidence about access to stepwells and overhyped photo stops."
+    },
+    {
+      "id": "rajasthan",
+      "title": "More Jaipur places to visit",
+      "url": "https://www.reddit.com/r/Rajasthan/comments/1w3b20v/suggest_places_to_visit_in_jaipur/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index discussion reviewed. Covers Anokhi Museum and Panna Meena beyond the central landmarks."
+    },
+    {
+      "id": "visitreport",
+      "title": "A visitor reports on Amber and its surroundings",
+      "url": "https://www.reddit.com/r/india_tourism/comments/1wvtcdt/loved_every_bit_of_jaipur/",
+      "type": "community",
+      "checked": "2026-10-17",
+      "note": "Search-index trip report reviewed. Visitor perspective, not a claim of local residency."
+    },
+    {
+      "id": "tourism",
+      "title": "Rajasthan Tourism: Jaipur",
+      "url": "https://www.tourism.rajasthan.gov.in/jaipur.html",
+      "type": "official",
+      "checked": "2026-10-17",
+      "note": "Official context for monuments, markets and cultural sites; not used as a restaurant ranking."
+    },
+    {
+      "id": "hawa",
+      "title": "Rajasthan Tourism: Hawa Mahal",
+      "url": "https://www.tourism.rajasthan.gov.in/hawa-mahal.html",
+      "type": "official",
+      "checked": "2026-10-17",
+      "note": "Official monument history."
+    },
+    {
+      "id": "anokhi",
+      "title": "Anokhi Museum: plan your visit",
+      "url": "https://www.anokhimuseum.com/visit/",
+      "type": "official",
+      "checked": "2026-10-17",
+      "note": "Museum-owned information. Check this page for current visiting arrangements."
+    }
+  ],
+  "places": [
+    {
+      "id": "samrat",
+      "name": "Samrat",
+      "category": "breakfast",
+      "area": "Old city",
+      "why": "A savoury start before a wander through the old city.",
+      "try": "Ask for the kachori options, then add a chai.",
+      "tip": "Confirm the shop pin before travelling; similarly named businesses appear in search.",
+      "sourceIds": [
+        "breakfast",
+        "family",
+        "food"
+      ],
+      "evidence": "Samrat appears across breakfast and food discussions. Individual commenters recommend it; this is not a citywide vote.",
+      "mapsQuery": "Samrat, Old city, Jaipur, India"
+    },
+    {
+      "id": "gulabji",
+      "name": "Gulab Ji Chai",
+      "category": "breakfast",
+      "area": "Near Collectorate Circle",
+      "why": "Make the first stop a cup of chai and an unhurried start.",
+      "try": "Chai. Ask what is fresh alongside it that morning.",
+      "tip": "Several branches share the name. This shortlist refers to the Collectorate Circle mention.",
+      "sourceIds": [
+        "breakfast",
+        "food",
+        "trip"
+      ],
+      "evidence": "Mentioned in several threads. The detailed food guide specifies Collectorate Circle, while other comments are less precise.",
+      "mapsQuery": "Gulab Ji Chai, Near Collectorate Circle, Jaipur, India"
+    },
+    {
+      "id": "rawat",
+      "name": "Rawat Misthan Bhandar",
+      "category": "breakfast",
+      "area": "Sindhi Camp / Station Road",
+      "why": "A frequently suggested kachori stop, with some honest disagreement.",
+      "try": "Pyaaz kachori, a pastry with an onion filling; mawa kachori if you want something sweet.",
+      "tip": "Expect a substantial snack. Check ingredients if you have dietary restrictions.",
+      "sourceIds": [
+        "family",
+        "trip",
+        "visiting"
+      ],
+      "evidence": "Repeated recommendations, but one family-trip commenter calls the onion kachori overrated. Included with that disagreement visible.",
+      "mapsQuery": "Rawat Misthan Bhandar, Sindhi Camp / Station Road, Jaipur, India"
+    },
+    {
+      "id": "lassiwala",
+      "name": "Lassiwala",
+      "category": "breakfast",
+      "area": "MI Road",
+      "why": "A lassi stop for a slow morning or a pause between walks.",
+      "try": "Lassi, the thick yogurt drink.",
+      "tip": "The name is shared by multiple shops. Check the MI Road location and recent reviews.",
+      "sourceIds": [
+        "breakfast",
+        "layover"
+      ],
+      "evidence": "Two discussions point to Lassiwala; the layover thread specifies MI Road. Exact branch identity still needs care.",
+      "mapsQuery": "Lassiwala, MI Road, Jaipur, India"
+    },
+    {
+      "id": "tapri",
+      "name": "Tapri Central",
+      "category": "breakfast",
+      "area": "C Scheme",
+      "why": "A sit-down tea break when you want breakfast to last a little longer.",
+      "try": "Tea and something from the current breakfast menu.",
+      "tip": "Check current opening hours and whether there is a wait.",
+      "sourceIds": [
+        "breakfast",
+        "layover",
+        "evening"
+      ],
+      "evidence": "Comes up in breakfast and itinerary suggestions. No specific dish or current price is independently verified.",
+      "mapsQuery": "Tapri Central, C Scheme, Jaipur, India"
+    },
+    {
+      "id": "thali",
+      "name": "Thali & More",
+      "category": "lunch",
+      "area": "C Scheme",
+      "why": "A straightforward way to sample a Rajasthani meal.",
+      "try": "Ask for the Rajasthani thali, a selection served together.",
+      "tip": "Confirm the branch and current menu. A thali can be a filling meal.",
+      "sourceIds": [
+        "family",
+        "underrated"
+      ],
+      "evidence": "Suggested in both family-trip and restaurant discussions, with Rajasthani food specifically mentioned.",
+      "mapsQuery": "Thali & More, C Scheme, Jaipur, India"
+    },
+    {
+      "id": "masala",
+      "name": "Masala Chowk",
+      "category": "lunch",
+      "area": "Ram Niwas Garden",
+      "why": "A useful stop when everyone wants to try something different.",
+      "try": "Walk around the food stalls before choosing.",
+      "tip": "Treat each stall separately when checking hygiene, ingredients and recent feedback.",
+      "sourceIds": [
+        "family",
+        "underrated"
+      ],
+      "evidence": "Two discussions recommend this collection of food vendors near Albert Hall. No single stall is ranked here.",
+      "mapsQuery": "Masala Chowk, Ram Niwas Garden, Jaipur, India"
+    },
+    {
+      "id": "moturam",
+      "name": "Motu Ram Prasadam",
+      "category": "lunch",
+      "area": "Jaipur",
+      "why": "One to investigate when a Rajasthani thali is the whole plan.",
+      "try": "Rajasthani thali.",
+      "tip": "Confirm the location and present-day menu before making a special trip.",
+      "sourceIds": [
+        "food"
+      ],
+      "evidence": "A recommendation from one food-guide discussion. The author has a food-vlogging background; independent corroboration is still needed.",
+      "mapsQuery": "Motu Ram Prasadam, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "sharma",
+      "name": "Sharma Dhaba",
+      "category": "lunch",
+      "area": "Sikar Road",
+      "why": "An out-of-centre food stop for a day that already takes you this way.",
+      "try": "Ask what the kitchen recommends from its current menu.",
+      "tip": "Check the drive and return transport. This is not an old-city walking stop.",
+      "sourceIds": [
+        "family"
+      ],
+      "evidence": "One family-trip discussion names the Sikar Road dhaba. No signature dish or current price was verified.",
+      "mapsQuery": "Sharma Dhaba, Sikar Road, Jaipur, India"
+    },
+    {
+      "id": "lmb",
+      "name": "Laxmi Misthan Bhandar (LMB)",
+      "category": "lunch",
+      "area": "Johari Bazaar",
+      "why": "Combine a meal or sweets stop with browsing the old city.",
+      "try": "A meal from the current menu; ask about ghewar if you want a sweet.",
+      "tip": "Check current prices and reviews before deciding on a full meal.",
+      "sourceIds": [
+        "layover",
+        "food"
+      ],
+      "evidence": "LMB is suggested for lunch in the layover thread and for ghewar in the personal food guide. Those are distinct recommendations.",
+      "mapsQuery": "Laxmi Misthan Bhandar (LMB), Johari Bazaar, Jaipur, India"
+    },
+    {
+      "id": "gopi",
+      "name": "Shri Gopi Pavitra Bhojnalay",
+      "category": "dinner",
+      "area": "Jaipur",
+      "why": "A simple dinner lead from a detailed community food list.",
+      "try": "The thali mentioned in the food discussion.",
+      "tip": "Verify the address and current service before heading out.",
+      "sourceIds": [
+        "food"
+      ],
+      "evidence": "One source, with possible food-vlogger bias. Kept as a lead rather than presented as a consensus favourite.",
+      "mapsQuery": "Shri Gopi Pavitra Bhojnalay, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "foresta",
+      "name": "The Forresta Kitchen & Bar",
+      "category": "dinner",
+      "area": "Near the railway station",
+      "why": "A restaurant option for an evening near the station area.",
+      "try": "Choose from the current dinner menu.",
+      "tip": "Confirm the venue pin, reservations and current menu.",
+      "sourceIds": [
+        "underrated",
+        "clubs"
+      ],
+      "evidence": "Named in both a restaurant discussion and a nightlife thread. Neither establishes a best dish or current event schedule.",
+      "mapsQuery": "The Forresta Kitchen & Bar, Near the railway station, Jaipur, India"
+    },
+    {
+      "id": "talk",
+      "name": "Talk of the Town",
+      "category": "dinner",
+      "area": "Jaipur",
+      "why": "A meat-focused dinner lead from a personal food guide.",
+      "try": "The guide mentions keema and roasted chicken.",
+      "tip": "Check which branch the current Maps reviews refer to.",
+      "sourceIds": [
+        "food"
+      ],
+      "evidence": "One personal food-guide source. Dish suggestions are attributed to that author, not tested by Nukkad.",
+      "mapsQuery": "Talk of the Town, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "meraaki",
+      "name": "Meraaki Kitchen",
+      "category": "dinner",
+      "area": "Jaipur",
+      "why": "A sit-down evening option mentioned in more than one conversation.",
+      "try": "Browse the current dinner menu.",
+      "tip": "Confirm the location, table availability and menu before visiting.",
+      "sourceIds": [
+        "underrated",
+        "evening"
+      ],
+      "evidence": "Named in a restaurant thread and an older evening itinerary. The older mention is useful context, not proof of current quality.",
+      "mapsQuery": "Meraaki Kitchen, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "shikar",
+      "name": "Shikar Bagh",
+      "category": "dinner",
+      "area": "Jaipur",
+      "why": "Another restaurant to compare when planning a relaxed evening.",
+      "try": "Pick from the current menu rather than relying on an old dish list.",
+      "tip": "Check the correct venue, prices and reservation requirements.",
+      "sourceIds": [
+        "underrated"
+      ],
+      "evidence": "One recommendation in the restaurant discussion. More independent evidence is needed before calling it a local favourite.",
+      "mapsQuery": "Shikar Bagh, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "rosado",
+      "name": "Rosado",
+      "category": "nightlife",
+      "area": "Jaipur",
+      "why": "An evening venue mentioned by a commenter who says they have visited.",
+      "try": "Check the current event or music programme.",
+      "tip": "Confirm entry rules, age requirements, cover charges and return transport with the venue.",
+      "sourceIds": [
+        "clubs"
+      ],
+      "evidence": "One visitor recommends this venue alongside two others. The thread has conflicting views about Jaipur nightlife; no current event or safety claim is verified.",
+      "mapsQuery": "Rosado, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "ora",
+      "name": "Ora",
+      "category": "nightlife",
+      "area": "Jaipur",
+      "why": "An evening venue mentioned by a commenter who says they have visited.",
+      "try": "Check the current event or music programme.",
+      "tip": "Confirm entry rules, age requirements, cover charges and return transport with the venue.",
+      "sourceIds": [
+        "clubs"
+      ],
+      "evidence": "One visitor recommends this venue alongside two others. The thread has conflicting views about Jaipur nightlife; no current event or safety claim is verified.",
+      "mapsQuery": "Ora, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "category": "nightlife",
+      "area": "Jaipur",
+      "why": "An evening venue mentioned by a commenter who says they have visited.",
+      "try": "Check the current event or music programme.",
+      "tip": "Confirm entry rules, age requirements, cover charges and return transport with the venue.",
+      "sourceIds": [
+        "clubs"
+      ],
+      "evidence": "One visitor recommends this venue alongside two others. The thread has conflicting views about Jaipur nightlife; no current event or safety claim is verified.",
+      "mapsQuery": "Oslo, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "bapu",
+      "name": "Bapu Bazaar",
+      "category": "shopping",
+      "area": "Old city",
+      "why": "A market wander for browsing and comparing before you buy.",
+      "try": "Clothes, textiles and small take-home finds.",
+      "tip": "Ask whether prices are fixed. Compare quality and prices across shops.",
+      "sourceIds": [
+        "shopping",
+        "budget"
+      ],
+      "evidence": "Multiple shopping conversations recommend Bapu Bazaar. Comments differ on value and bargaining, so no discount percentage is promised.",
+      "mapsQuery": "Bapu Bazaar, Old city, Jaipur, India"
+    },
+    {
+      "id": "johari",
+      "name": "Johari Bazaar",
+      "category": "shopping",
+      "area": "Old city",
+      "why": "A jewellery-focused market to explore at your own pace.",
+      "try": "Jewellery and bangles, with time to compare shops.",
+      "tip": "For valuable items, ask about material, certification, invoice and returns.",
+      "sourceIds": [
+        "shopping",
+        "budget"
+      ],
+      "evidence": "Appears in several market recommendations. A market recommendation does not certify any individual seller.",
+      "mapsQuery": "Johari Bazaar, Old city, Jaipur, India"
+    },
+    {
+      "id": "ratan",
+      "name": "Ratan Textiles",
+      "category": "shopping",
+      "area": "Jaipur",
+      "why": "A textile-shop lead for travellers looking beyond souvenir stalls.",
+      "try": "Fabrics and home furnishings.",
+      "tip": "Check the precise branch and returns policy.",
+      "sourceIds": [
+        "shopping"
+      ],
+      "evidence": "Named in one shopping conversation. Product quality and stock have not been independently checked.",
+      "mapsQuery": "Ratan Textiles, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "gulabchand",
+      "name": "Gulab Chand",
+      "category": "shopping",
+      "area": "Jaipur",
+      "why": "Another fabric-shopping lead to compare with the street markets.",
+      "try": "Clothing and fabrics.",
+      "tip": "Confirm the store location, fabric composition and price before buying.",
+      "sourceIds": [
+        "shopping"
+      ],
+      "evidence": "One shopping thread recommends the store. No blanket quality guarantee or best-price claim is made.",
+      "mapsQuery": "Gulab Chand, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "pdkf",
+      "name": "PDKF Store",
+      "category": "shopping",
+      "area": "Jaipur",
+      "why": "A small-store lead from a discussion about less obvious city stops.",
+      "try": "Look through the current collection.",
+      "tip": "Check its official hours and exact store location before going.",
+      "sourceIds": [
+        "underrated"
+      ],
+      "evidence": "One commenter recommends this store. Included as a lead; additional independent shopping experiences are still needed.",
+      "mapsQuery": "PDKF Store, Jaipur, Jaipur, India"
+    },
+    {
+      "id": "jkk",
+      "name": "Jawahar Kala Kendra",
+      "category": "unique",
+      "area": "JLN Marg",
+      "why": "Leave room for an exhibition or performance instead of another checklist stop.",
+      "try": "Check the current cultural programme.",
+      "tip": "An event calendar matters more than a generic opening time. Some programmes may require tickets.",
+      "sourceIds": [
+        "trip",
+        "tourism"
+      ],
+      "evidence": "The recent trip discussion recommends JKK for cultural events. The official tourism page supplies the institutional context.",
+      "mapsQuery": "Jawahar Kala Kendra, JLN Marg, Jaipur, India"
+    },
+    {
+      "id": "gaitore",
+      "name": "Gaitore Ki Chhatriyan",
+      "category": "unique",
+      "area": "Brahmpuri",
+      "why": "A quieter architecture stop to investigate beyond the headline palaces.",
+      "try": "The carved memorial structures.",
+      "tip": "Check access and photography rules on arrival; treat it as a heritage site.",
+      "sourceIds": [
+        "family",
+        "reality",
+        "tourism"
+      ],
+      "evidence": "Gaitore appears in additional-sights suggestions and a discussion questioning overhyped stops. Verify the exact site, as similarly named memorials exist.",
+      "mapsQuery": "Gaitore Ki Chhatriyan, Brahmpuri, Jaipur, India",
+      "history": "Gaitore is associated with memorials to Jaipur rulers.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/jaipur.html"
+    },
+    {
+      "id": "anokhi-museum",
+      "name": "Anokhi Museum of Hand Printing",
+      "category": "unique",
+      "area": "Amber",
+      "why": "Follow the textile story behind the patterns you see in the markets.",
+      "try": "The hand-printing displays and any demonstrations listed for your visit.",
+      "tip": "Use the museum website to check closures and visiting arrangements.",
+      "sourceIds": [
+        "rajasthan",
+        "visitreport",
+        "anokhi"
+      ],
+      "evidence": "Community suggestions and a visitor report point here; the museum confirms it is in Amber near the fort.",
+      "mapsQuery": "Anokhi Museum of Hand Printing, Amber, Jaipur, India",
+      "history": "The museum is housed in a restored haveli and focuses on hand block printing.",
+      "historySource": "https://www.anokhimuseum.com/visit/"
+    },
+    {
+      "id": "panna",
+      "name": "Panna Meena ka Kund",
+      "category": "unique",
+      "area": "Amber",
+      "why": "A stepwell stop that can fit around an Amber visit.",
+      "try": "The geometry from the permitted viewing area.",
+      "tip": "Do not assume you can walk down the steps. Follow access restrictions and staff instructions.",
+      "sourceIds": [
+        "rajasthan",
+        "visitreport",
+        "reality"
+      ],
+      "evidence": "Suggested by travellers, with counter-evidence warning that access to the steps can be restricted. The photographs do not promise unrestricted entry.",
+      "mapsQuery": "Panna Meena ka Kund, Amber, Jaipur, India"
+    },
+    {
+      "id": "patrika",
+      "name": "Patrika Gate",
+      "category": "unique",
+      "area": "Jawahar Circle",
+      "why": "A colourful stop if your route already takes you toward this side of the city.",
+      "try": "A look at the painted passageways.",
+      "tip": "Check travel time before adding it to an old-city itinerary.",
+      "sourceIds": [
+        "family",
+        "shopping",
+        "rajasthan"
+      ],
+      "evidence": "Appears in several sightseeing discussions. Its popularity is not evidence that every visitor will find it worth a detour.",
+      "mapsQuery": "Patrika Gate, Jawahar Circle, Jaipur, India"
+    },
+    {
+      "id": "amer",
+      "name": "Amber Palace (Amer Fort)",
+      "category": "must-visit",
+      "area": "Amber",
+      "why": "A fort-and-palace visit that keeps appearing in travellers’ suggestions.",
+      "try": "The courtyards and palace architecture.",
+      "tip": "Check official tickets, opening hours and transport; leave time for the uphill approach.",
+      "sourceIds": [
+        "family",
+        "shopping",
+        "visitreport",
+        "tourism"
+      ],
+      "evidence": "Repeated across trip threads and supported by official visitor information.",
+      "mapsQuery": "Amber Palace (Amer Fort), Amber, Jaipur, India",
+      "history": "Amber was the Kachwaha capital before Jaipur. The palace combines Rajput and Mughal architectural influences.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/jaipur.html"
+    },
+    {
+      "id": "hawa-mahal",
+      "name": "Hawa Mahal",
+      "category": "must-visit",
+      "area": "Old city",
+      "why": "The facade is familiar. Give yourself time to look beyond the quick photo.",
+      "try": "The street-facing architecture and, if open, the interior visitor route.",
+      "tip": "Check access and ticket arrangements; a street view and an interior visit are different experiences.",
+      "sourceIds": [
+        "shopping",
+        "reality",
+        "hawa"
+      ],
+      "evidence": "Appears in sightseeing discussions; the official monument page supports its history.",
+      "mapsQuery": "Hawa Mahal, Old city, Jaipur, India",
+      "history": "Built in 1799 for Sawai Pratap Singh, Hawa Mahal allowed royal women to observe street life from screened windows.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/hawa-mahal.html"
+    },
+    {
+      "id": "city-palace",
+      "name": "City Palace",
+      "category": "must-visit",
+      "area": "Old city",
+      "why": "An old-city anchor for anyone interested in the royal collections.",
+      "try": "The museum areas included in your chosen ticket.",
+      "tip": "Read ticket inclusions carefully. Different areas may have different access.",
+      "sourceIds": [
+        "family",
+        "shopping",
+        "visiting",
+        "tourism"
+      ],
+      "evidence": "Several threads suggest City Palace; one specifically mentions the weapons collection.",
+      "mapsQuery": "City Palace, Old city, Jaipur, India",
+      "history": "The palace complex was developed under Sawai Jai Singh II and later rulers.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/jaipur.html"
+    },
+    {
+      "id": "nahargarh",
+      "name": "Nahargarh Fort",
+      "category": "must-visit",
+      "area": "Aravalli hills",
+      "why": "A city-view stop that needs a little transport planning.",
+      "try": "The view from permitted areas.",
+      "tip": "Check current access and arrange a return ride. Prefer daylight for an unfamiliar route.",
+      "sourceIds": [
+        "family",
+        "shopping",
+        "underrated",
+        "visiting",
+        "tourism"
+      ],
+      "evidence": "Repeated recommendations focus on the views. Threads differ on visiting at night, so this guide does not promise night access.",
+      "mapsQuery": "Nahargarh Fort, Aravalli hills, Jaipur, India",
+      "history": "Nahargarh was built in the eighteenth century as part of Jaipur’s defensive landscape.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/jaipur.html"
+    },
+    {
+      "id": "jantar",
+      "name": "Jantar Mantar",
+      "category": "must-visit",
+      "area": "Old city",
+      "why": "A good stop when the story behind an instrument interests you as much as the photograph.",
+      "try": "The astronomical instruments, with a guide or explanatory material.",
+      "tip": "Check official hours and allow time to understand what you are looking at.",
+      "sourceIds": [
+        "family",
+        "reality",
+        "tourism"
+      ],
+      "evidence": "Recommended in extra-sights and reality-check discussions. Official visitor information explains its astronomical purpose.",
+      "mapsQuery": "Jantar Mantar, Old city, Jaipur, India",
+      "history": "Sawai Jai Singh II established this observatory to study astronomical measurements.",
+      "historySource": "https://www.tourism.rajasthan.gov.in/jaipur.html"
+    }
+  ],
+  "media": [
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Hawa Mahal, Jaipur",
+      "credit": "Chainwit. / CC BY-SA 4.0",
+      "href": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg"
+    },
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/1920px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Amer Fort, Jaipur",
+      "credit": "Jakub Hałun / CC BY-SA 4.0",
+      "href": "https://commons.wikimedia.org/wiki/File:20191219_Fort_Amber,_Amer,_Jaipur_0955_9481.jpg"
+    },
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg/1920px-Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Jal Mahal, Jaipur",
+      "credit": "A.Savin / FAL",
+      "href": "https://commons.wikimedia.org/wiki/File:Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg"
+    }
+  ],
+  "editorialNote": "A first editorial shortlist, not a ranked top five or an on-the-ground inspection. We compared 14 community discussions, including conflicting views, then used official sources for context. Some discussions were available only through search-index excerpts; each source says how it was read. Several places have only one mention. Current opening status, prices and Google ratings are not verified. The nightlife category has three leads because stronger evidence is needed before adding more.",
+  "itinerary": [
+    {
+      "time": "Morning",
+      "placeId": "samrat",
+      "note": "Start with breakfast, then walk into the old city."
+    },
+    {
+      "time": "After breakfast",
+      "placeId": "hawa-mahal",
+      "note": "Take a look before deciding whether to add an interior visit."
+    },
+    {
+      "time": "Late morning",
+      "placeId": "jantar",
+      "note": "Choose an unhurried visit with time for the explanations."
+    },
+    {
+      "time": "Lunch",
+      "placeId": "lmb",
+      "note": "Check the menu and prices before settling in."
+    },
+    {
+      "time": "Afternoon",
+      "placeId": "johari",
+      "note": "Browse a few shops. There is no need to buy anything."
+    },
+    {
+      "time": "Evening",
+      "placeId": "meraaki",
+      "note": "A possible dinner finish, with transport and a table checked in advance."
+    }
+  ]
+}

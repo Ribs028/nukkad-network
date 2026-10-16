@@ -1,0 +1,2572 @@
+{
+  "batch": 15,
+  "batchSize": 500,
+  "checked": "2026-10-17",
+  "cities": {
+    "palackattumala": {
+      "citySlug": "palackattumala",
+      "name": "Palackattumala",
+      "state": "Kerala",
+      "latitude": 9.74356,
+      "longitude": 76.6294,
+      "population": 1200,
+      "batch": 15,
+      "summary": "Palackattumala is a populated place in Kerala, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Palackattumala",
+        "url": "https://www.geonames.org/7287889/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ajani-khurd": {
+      "citySlug": "ajani-khurd",
+      "name": "Ajani Khurd",
+      "state": "Maharashtra",
+      "latitude": 18.6199,
+      "longitude": 76.94125,
+      "population": 1178,
+      "batch": 15,
+      "summary": "Ajani Khurd is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ajani Khurd",
+        "url": "https://www.geonames.org/12402219/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "shakar-pur-baramad": {
+      "citySlug": "shakar-pur-baramad",
+      "name": "Shakar Pur Baramad",
+      "state": "Delhi",
+      "latitude": 28.62081,
+      "longitude": 77.27938,
+      "population": 1178,
+      "batch": 15,
+      "summary": "Shakar Pur Baramad is a populated place in Delhi, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Shakar Pur Baramad",
+        "url": "https://www.geonames.org/13156977/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "budhikhamari": {
+      "citySlug": "budhikhamari",
+      "name": "Budhikhamari",
+      "state": "Odisha",
+      "latitude": 22.09214,
+      "longitude": 86.49339,
+      "population": 1170,
+      "batch": 15,
+      "summary": "Budhikhamari is a populated place in Odisha, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Budhikhamari",
+        "url": "https://www.geonames.org/13546225/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "valsad-ina": {
+      "citySlug": "valsad-ina",
+      "name": "Valsad INA",
+      "state": "Gujarat",
+      "latitude": 20.62284,
+      "longitude": 72.97095,
+      "population": 1162,
+      "batch": 15,
+      "summary": "Valsad INA is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Valsad INA",
+        "url": "https://www.geonames.org/13157032/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "aujla-dhak": {
+      "citySlug": "aujla-dhak",
+      "name": "Aujla Dhak",
+      "state": "Punjab",
+      "latitude": 31.13943,
+      "longitude": 75.89487,
+      "population": 1160,
+      "batch": 15,
+      "summary": "Aujla Dhak is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Aujla Dhak",
+        "url": "https://www.geonames.org/13713016/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "net": {
+      "citySlug": "net",
+      "name": "Net",
+      "state": "Rajasthan",
+      "latitude": 25.58525,
+      "longitude": 75.57088,
+      "population": 1159,
+      "batch": 15,
+      "summary": "Net is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Net",
+        "url": "https://www.geonames.org/1441972/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sherpur": {
+      "citySlug": "sherpur",
+      "name": "Sherpur",
+      "state": "Punjab",
+      "latitude": 31.04322,
+      "longitude": 75.59414,
+      "population": 1152,
+      "batch": 15,
+      "summary": "Sherpur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sherpur",
+        "url": "https://www.geonames.org/10713242/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "lit": {
+      "citySlug": "lit",
+      "name": "Lit",
+      "state": "Punjab",
+      "latitude": 31.49659,
+      "longitude": 75.48355,
+      "population": 1151,
+      "batch": 15,
+      "summary": "Lit is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Lit",
+        "url": "https://www.geonames.org/13645566/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "patpat": {
+      "citySlug": "patpat",
+      "name": "Patpat",
+      "state": "Jharkhand",
+      "latitude": 22.84065,
+      "longitude": 85.80987,
+      "population": 1150,
+      "batch": 15,
+      "summary": "Patpat is a populated place in Jharkhand, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Patpat",
+        "url": "https://www.geonames.org/11689331/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "mad": {
+      "citySlug": "mad",
+      "name": "Mad",
+      "state": "Rajasthan",
+      "latitude": 25.34267,
+      "longitude": 73.97274,
+      "population": 1149,
+      "batch": 15,
+      "summary": "Mad is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Mad",
+        "url": "https://www.geonames.org/10807126/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "koyali": {
+      "citySlug": "koyali",
+      "name": "Koyali",
+      "state": "Maharashtra",
+      "latitude": 20.02945,
+      "longitude": 76.49074,
+      "population": 1148,
+      "batch": 15,
+      "summary": "Koyali is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Koyali",
+        "url": "https://www.geonames.org/12402201/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pimpalkhuta": {
+      "citySlug": "pimpalkhuta",
+      "name": "Pimpalkhuta",
+      "state": "Maharashtra",
+      "latitude": 20.01453,
+      "longitude": 76.49991,
+      "population": 1144,
+      "batch": 15,
+      "summary": "Pimpalkhuta is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pimpalkhuta",
+        "url": "https://www.geonames.org/12402202/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "mubarakpur-net": {
+      "citySlug": "mubarakpur-net",
+      "name": "Mubarakpur Net",
+      "state": "Uttar Pradesh",
+      "latitude": 25.71074,
+      "longitude": 83.69797,
+      "population": 1140,
+      "batch": 15,
+      "summary": "Mubarakpur Net is a populated place in Uttar Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Mubarakpur Net",
+        "url": "https://www.geonames.org/10673154/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "wadgaon-sarhad": {
+      "citySlug": "wadgaon-sarhad",
+      "name": "Wadgaon Sarhad",
+      "state": "Maharashtra",
+      "latitude": 19.90355,
+      "longitude": 76.48233,
+      "population": 1136,
+      "batch": 15,
+      "summary": "Wadgaon Sarhad is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Wadgaon Sarhad",
+        "url": "https://www.geonames.org/12402294/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "job": {
+      "citySlug": "job",
+      "name": "Job",
+      "state": "Chhattisgarh",
+      "latitude": 21.00343,
+      "longitude": 80.52691,
+      "population": 1088,
+      "batch": 15,
+      "summary": "Job is a populated place in Chhattisgarh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Job",
+        "url": "https://www.geonames.org/10703286/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pariswani": {
+      "citySlug": "pariswani",
+      "name": "Pariswani",
+      "state": "Jammu and Kashmir",
+      "latitude": 34.0602,
+      "longitude": 74.486,
+      "population": 1088,
+      "batch": 15,
+      "summary": "Pariswani is a populated place in Jammu and Kashmir, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pariswani",
+        "url": "https://www.geonames.org/13589599/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "dad": {
+      "citySlug": "dad",
+      "name": "Dad",
+      "state": "Rajasthan",
+      "latitude": 23.36909,
+      "longitude": 73.8942,
+      "population": 1086,
+      "batch": 15,
+      "summary": "Dad is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Dad",
+        "url": "https://www.geonames.org/10802328/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "valia": {
+      "citySlug": "valia",
+      "name": "Valia",
+      "state": "Gujarat",
+      "latitude": 21.57076,
+      "longitude": 73.16019,
+      "population": 1084,
+      "batch": 15,
+      "summary": "Valia is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Valia",
+        "url": "https://www.geonames.org/1253488/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "nathewal": {
+      "citySlug": "nathewal",
+      "name": "Nathewal",
+      "state": "Punjab",
+      "latitude": 31.16253,
+      "longitude": 75.69185,
+      "population": 1084,
+      "batch": 15,
+      "summary": "Nathewal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Nathewal",
+        "url": "https://www.geonames.org/10713170/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "dubai-10564658": {
+      "citySlug": "dubai-10564658",
+      "name": "Dubai",
+      "state": "Uttar Pradesh",
+      "latitude": 27.08365,
+      "longitude": 81.75133,
+      "population": 1081,
+      "batch": 15,
+      "summary": "Dubai is a populated place in Uttar Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Dubai",
+        "url": "https://www.geonames.org/10564658/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pabwan": {
+      "citySlug": "pabwan",
+      "name": "Pabwan",
+      "state": "Punjab",
+      "latitude": 31.1222,
+      "longitude": 75.61568,
+      "population": 1081,
+      "batch": 15,
+      "summary": "Pabwan is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pabwan",
+        "url": "https://www.geonames.org/10713183/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "west-bunghmun": {
+      "citySlug": "west-bunghmun",
+      "name": "West Bunghmun",
+      "state": "Mizoram",
+      "latitude": 23.18024,
+      "longitude": 92.48696,
+      "population": 1081,
+      "batch": 15,
+      "summary": "West Bunghmun is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for West Bunghmun",
+        "url": "https://www.geonames.org/12523348/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kawlchaw-e": {
+      "citySlug": "kawlchaw-e",
+      "name": "Kawlchaw ?E?",
+      "state": "Mizoram",
+      "latitude": 22.40177,
+      "longitude": 92.95239,
+      "population": 1071,
+      "batch": 15,
+      "summary": "Kawlchaw ?E? is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kawlchaw ?E?",
+        "url": "https://www.geonames.org/13645550/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kadupur": {
+      "citySlug": "kadupur",
+      "name": "Kadupur",
+      "state": "Punjab",
+      "latitude": 31.39067,
+      "longitude": 75.40998,
+      "population": 1068,
+      "batch": 15,
+      "summary": "Kadupur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kadupur",
+        "url": "https://www.geonames.org/10701532/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kot-garewal": {
+      "citySlug": "kot-garewal",
+      "name": "Kot Garewal",
+      "state": "Punjab",
+      "latitude": 31.15216,
+      "longitude": 75.84044,
+      "population": 1045,
+      "batch": 15,
+      "summary": "Kot Garewal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kot Garewal",
+        "url": "https://www.geonames.org/10713642/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sunar-khurd": {
+      "citySlug": "sunar-khurd",
+      "name": "Sunar Khurd",
+      "state": "Punjab",
+      "latitude": 31.15721,
+      "longitude": 75.70271,
+      "population": 1040,
+      "batch": 15,
+      "summary": "Sunar Khurd is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sunar Khurd",
+        "url": "https://www.geonames.org/10713171/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "naya-bazar": {
+      "citySlug": "naya-bazar",
+      "name": "Naya Bazar",
+      "state": "Sikkim",
+      "latitude": 27.13082,
+      "longitude": 88.23972,
+      "population": 1035,
+      "batch": 15,
+      "summary": "Naya Bazar is a populated place in Sikkim, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Naya Bazar",
+        "url": "https://www.geonames.org/1261588/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "doha-10521268": {
+      "citySlug": "doha-10521268",
+      "name": "Doha",
+      "state": "Uttar Pradesh",
+      "latitude": 25.48234,
+      "longitude": 80.47816,
+      "population": 1033,
+      "batch": 15,
+      "summary": "Doha is a populated place in Uttar Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Doha",
+        "url": "https://www.geonames.org/10521268/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "anihar": {
+      "citySlug": "anihar",
+      "name": "Anihar",
+      "state": "Punjab",
+      "latitude": 31.1472,
+      "longitude": 75.84873,
+      "population": 1030,
+      "batch": 15,
+      "summary": "Anihar is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Anihar",
+        "url": "https://www.geonames.org/10713643/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bulanda": {
+      "citySlug": "bulanda",
+      "name": "Bulanda",
+      "state": "Punjab",
+      "latitude": 31.04452,
+      "longitude": 75.42937,
+      "population": 1014,
+      "batch": 15,
+      "summary": "Bulanda is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bulanda",
+        "url": "https://www.geonames.org/10701870/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "garha-brahman": {
+      "citySlug": "garha-brahman",
+      "name": "Garha Brahman",
+      "state": "Madhya Pradesh",
+      "latitude": 23.86873,
+      "longitude": 77.35731,
+      "population": 1013,
+      "batch": 15,
+      "summary": "Garha Brahman is a populated place in Madhya Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Garha Brahman",
+        "url": "https://www.geonames.org/11280421/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kavalur": {
+      "citySlug": "kavalur",
+      "name": "Kavalur",
+      "state": "Karnataka",
+      "latitude": 15.28829,
+      "longitude": 75.9433,
+      "population": 1010,
+      "batch": 15,
+      "summary": "Kavalur is a populated place in Karnataka, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kavalur",
+        "url": "https://www.geonames.org/1267393/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "aar": {
+      "citySlug": "aar",
+      "name": "Aar",
+      "state": "Rajasthan",
+      "latitude": 24.50774,
+      "longitude": 73.57687,
+      "population": 1007,
+      "batch": 15,
+      "summary": "Aar is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Aar",
+        "url": "https://www.geonames.org/13546251/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ellora": {
+      "citySlug": "ellora",
+      "name": "Ellora",
+      "state": "Maharashtra",
+      "latitude": 20.02305,
+      "longitude": 75.16302,
+      "population": 1000,
+      "batch": 15,
+      "summary": "Ellora is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ellora",
+        "url": "https://www.geonames.org/1272059/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "chapora": {
+      "citySlug": "chapora",
+      "name": "Chapora",
+      "state": "Goa",
+      "latitude": 15.6034,
+      "longitude": 73.73996,
+      "population": 1000,
+      "batch": 15,
+      "summary": "Chapora is a populated place in Goa, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Chapora",
+        "url": "https://www.geonames.org/1274613/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sinquerim": {
+      "citySlug": "sinquerim",
+      "name": "Sinquerim",
+      "state": "Goa",
+      "latitude": 15.5035,
+      "longitude": 73.76933,
+      "population": 1000,
+      "batch": 15,
+      "summary": "Sinquerim is a populated place in Goa, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sinquerim",
+        "url": "https://www.geonames.org/8030166/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "nagla-panchi": {
+      "citySlug": "nagla-panchi",
+      "name": "Nagla Panchi",
+      "state": "Uttar Pradesh",
+      "latitude": 27.11336,
+      "longitude": 79.12113,
+      "population": 1000,
+      "batch": 15,
+      "summary": "Nagla Panchi is a populated place in Uttar Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Nagla Panchi",
+        "url": "https://www.geonames.org/10530145/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "badian": {
+      "citySlug": "badian",
+      "name": "Badian",
+      "state": "Punjab",
+      "latitude": 30.33795,
+      "longitude": 75.35365,
+      "population": 1000,
+      "batch": 15,
+      "summary": "Badian is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Badian",
+        "url": "https://www.geonames.org/12253537/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "rupowal": {
+      "citySlug": "rupowal",
+      "name": "Rupowal",
+      "state": "Punjab",
+      "latitude": 31.08828,
+      "longitude": 75.70005,
+      "population": 997,
+      "batch": 15,
+      "summary": "Rupowal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Rupowal",
+        "url": "https://www.geonames.org/10713211/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "hawai": {
+      "citySlug": "hawai",
+      "name": "Hawai",
+      "state": "Arunachal Pradesh",
+      "latitude": 27.88677,
+      "longitude": 96.8017,
+      "population": 982,
+      "batch": 15,
+      "summary": "Hawai is a populated place in Arunachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Hawai",
+        "url": "https://www.geonames.org/11169179/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "nat": {
+      "citySlug": "nat",
+      "name": "Nat",
+      "state": "Punjab",
+      "latitude": 31.08455,
+      "longitude": 75.55295,
+      "population": 980,
+      "batch": 15,
+      "summary": "Nat is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Nat",
+        "url": "https://www.geonames.org/10713301/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "jaja-kalan": {
+      "citySlug": "jaja-kalan",
+      "name": "Jaja Kalan",
+      "state": "Punjab",
+      "latitude": 31.09229,
+      "longitude": 75.73374,
+      "population": 979,
+      "batch": 15,
+      "summary": "Jaja Kalan is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Jaja Kalan",
+        "url": "https://www.geonames.org/10713207/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ajani-budruk": {
+      "citySlug": "ajani-budruk",
+      "name": "Ajani Budruk",
+      "state": "Maharashtra",
+      "latitude": 20.58607,
+      "longitude": 77.15187,
+      "population": 978,
+      "batch": 15,
+      "summary": "Ajani Budruk is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ajani Budruk",
+        "url": "https://www.geonames.org/10503938/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "udanapur": {
+      "citySlug": "udanapur",
+      "name": "Udanapur",
+      "state": "Maharashtra",
+      "latitude": 20.05097,
+      "longitude": 76.49092,
+      "population": 959,
+      "batch": 15,
+      "summary": "Udanapur is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Udanapur",
+        "url": "https://www.geonames.org/12402200/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "arhal": {
+      "citySlug": "arhal",
+      "name": "Arhal",
+      "state": "Himachal Pradesh",
+      "latitude": 31.20943,
+      "longitude": 77.6999,
+      "population": 944,
+      "batch": 15,
+      "summary": "Arhal is a populated place in Himachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Arhal",
+        "url": "https://www.geonames.org/10136755/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bhandal-himmat": {
+      "citySlug": "bhandal-himmat",
+      "name": "Bhandal Himmat",
+      "state": "Punjab",
+      "latitude": 31.12294,
+      "longitude": 75.57819,
+      "population": 942,
+      "batch": 15,
+      "summary": "Bhandal Himmat is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bhandal Himmat",
+        "url": "https://www.geonames.org/10713277/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "akbarpur-kalan": {
+      "citySlug": "akbarpur-kalan",
+      "name": "Akbarpur Kalan",
+      "state": "Punjab",
+      "latitude": 31.03879,
+      "longitude": 75.40628,
+      "population": 939,
+      "batch": 15,
+      "summary": "Akbarpur Kalan is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Akbarpur Kalan",
+        "url": "https://www.geonames.org/10701866/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ishanpur": {
+      "citySlug": "ishanpur",
+      "name": "Ishanpur",
+      "state": "Punjab",
+      "latitude": 30.63929,
+      "longitude": 76.11761,
+      "population": 938,
+      "batch": 15,
+      "summary": "Ishanpur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ishanpur",
+        "url": "https://www.geonames.org/1436624/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sagarpur": {
+      "citySlug": "sagarpur",
+      "name": "Sagarpur",
+      "state": "Punjab",
+      "latitude": 31.08795,
+      "longitude": 75.63667,
+      "population": 927,
+      "batch": 15,
+      "summary": "Sagarpur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sagarpur",
+        "url": "https://www.geonames.org/10713217/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "joka-13546248": {
+      "citySlug": "joka-13546248",
+      "name": "Joka",
+      "state": "Odisha",
+      "latitude": 22.24627,
+      "longitude": 86.51769,
+      "population": 927,
+      "batch": 15,
+      "summary": "Joka is a populated place in Odisha, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Joka",
+        "url": "https://www.geonames.org/13546248/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ajani": {
+      "citySlug": "ajani",
+      "name": "Ajani",
+      "state": "Maharashtra",
+      "latitude": 18.25634,
+      "longitude": 77.13706,
+      "population": 920,
+      "batch": 15,
+      "summary": "Ajani is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ajani",
+        "url": "https://www.geonames.org/12402220/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "deb": {
+      "citySlug": "deb",
+      "name": "Deb",
+      "state": "Jammu and Kashmir",
+      "latitude": 32.70367,
+      "longitude": 75.56713,
+      "population": 911,
+      "batch": 15,
+      "summary": "Deb is a populated place in Jammu and Kashmir, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Deb",
+        "url": "https://www.geonames.org/10682510/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "narkanda": {
+      "citySlug": "narkanda",
+      "name": "Narkanda",
+      "state": "Himachal Pradesh",
+      "latitude": 31.25703,
+      "longitude": 77.4612,
+      "population": 901,
+      "batch": 15,
+      "summary": "Narkanda is a populated place in Himachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Narkanda",
+        "url": "https://www.geonames.org/1261786/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bhullar": {
+      "citySlug": "bhullar",
+      "name": "Bhullar",
+      "state": "Punjab",
+      "latitude": 31.10267,
+      "longitude": 75.39726,
+      "population": 901,
+      "batch": 15,
+      "summary": "Bhullar is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bhullar",
+        "url": "https://www.geonames.org/10701874/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "devasora": {
+      "citySlug": "devasora",
+      "name": "Devasora",
+      "state": "Mizoram",
+      "latitude": 22.16513,
+      "longitude": 92.62501,
+      "population": 863,
+      "batch": 15,
+      "summary": "Devasora is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Devasora",
+        "url": "https://www.geonames.org/13546242/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "1a": {
+      "citySlug": "1a",
+      "name": "1A",
+      "state": "Rajasthan",
+      "latitude": 30.18789,
+      "longitude": 73.96751,
+      "population": 857,
+      "batch": 15,
+      "summary": "1A is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for 1A",
+        "url": "https://www.geonames.org/13546269/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "devasora-south": {
+      "citySlug": "devasora-south",
+      "name": "Devasora South",
+      "state": "Mizoram",
+      "latitude": 22.13225,
+      "longitude": 92.6419,
+      "population": 844,
+      "batch": 15,
+      "summary": "Devasora South is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Devasora South",
+        "url": "https://www.geonames.org/13546238/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "khata-khedi": {
+      "citySlug": "khata-khedi",
+      "name": "Khata Khedi",
+      "state": "Madhya Pradesh",
+      "latitude": 23.87202,
+      "longitude": 77.29002,
+      "population": 839,
+      "batch": 15,
+      "summary": "Khata Khedi is a populated place in Madhya Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Khata Khedi",
+        "url": "https://www.geonames.org/11280420/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "panoli": {
+      "citySlug": "panoli",
+      "name": "Panoli",
+      "state": "Gujarat",
+      "latitude": 21.53117,
+      "longitude": 72.96437,
+      "population": 836,
+      "batch": 15,
+      "summary": "Panoli is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Panoli",
+        "url": "https://www.geonames.org/11184595/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "angi-kiri": {
+      "citySlug": "angi-kiri",
+      "name": "Angi Kiri",
+      "state": "Punjab",
+      "latitude": 31.04305,
+      "longitude": 75.46936,
+      "population": 820,
+      "batch": 15,
+      "summary": "Angi Kiri is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Angi Kiri",
+        "url": "https://www.geonames.org/10701878/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "gangotri": {
+      "citySlug": "gangotri",
+      "name": "Gangotri",
+      "state": "Uttarakhand",
+      "latitude": 30.99589,
+      "longitude": 78.94321,
+      "population": 810,
+      "batch": 15,
+      "summary": "Gangotri is a populated place in Uttarakhand, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Gangotri",
+        "url": "https://www.geonames.org/1271641/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "latabari": {
+      "citySlug": "latabari",
+      "name": "Latabari",
+      "state": "Assam",
+      "latitude": 26.30538,
+      "longitude": 89.85726,
+      "population": 800,
+      "batch": 15,
+      "summary": "Latabari is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Latabari",
+        "url": "https://www.geonames.org/8021102/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bualpui-ng-e": {
+      "citySlug": "bualpui-ng-e",
+      "name": "Bualpui NG ?E?",
+      "state": "Mizoram",
+      "latitude": 22.51763,
+      "longitude": 93.04181,
+      "population": 796,
+      "batch": 15,
+      "summary": "Bualpui NG ?E? is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bualpui NG ?E?",
+        "url": "https://www.geonames.org/13645551/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "3-b": {
+      "citySlug": "3-b",
+      "name": "3 b",
+      "state": "Rajasthan",
+      "latitude": 29.94198,
+      "longitude": 73.84471,
+      "population": 787,
+      "batch": 15,
+      "summary": "3 b is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for 3 b",
+        "url": "https://www.geonames.org/13546274/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "behar": {
+      "citySlug": "behar",
+      "name": "Behar",
+      "state": "Punjab",
+      "latitude": 30.98744,
+      "longitude": 75.52588,
+      "population": 776,
+      "batch": 15,
+      "summary": "Behar is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Behar",
+        "url": "https://www.geonames.org/10256300/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "1-arm-surjanwali": {
+      "citySlug": "1-arm-surjanwali",
+      "name": "1 Arm (Surjanwali)",
+      "state": "Rajasthan",
+      "latitude": 28.74673,
+      "longitude": 73.14209,
+      "population": 758,
+      "batch": 15,
+      "summary": "1 Arm (Surjanwali) is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for 1 Arm (Surjanwali)",
+        "url": "https://www.geonames.org/13645546/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "takhar": {
+      "citySlug": "takhar",
+      "name": "Takhar",
+      "state": "Punjab",
+      "latitude": 31.15847,
+      "longitude": 75.76508,
+      "population": 757,
+      "batch": 15,
+      "summary": "Takhar is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Takhar",
+        "url": "https://www.geonames.org/10713634/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "unwa-birit": {
+      "citySlug": "unwa-birit",
+      "name": "Unwa Birit",
+      "state": "Bihar",
+      "latitude": 26.78506,
+      "longitude": 84.81501,
+      "population": 754,
+      "batch": 15,
+      "summary": "Unwa Birit is a populated place in Bihar, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Unwa Birit",
+        "url": "https://www.geonames.org/10827411/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "alowal": {
+      "citySlug": "alowal",
+      "name": "Alowal",
+      "state": "Punjab",
+      "latitude": 31.1563,
+      "longitude": 75.49683,
+      "population": 752,
+      "batch": 15,
+      "summary": "Alowal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Alowal",
+        "url": "https://www.geonames.org/10701906/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bal-kohna": {
+      "citySlug": "bal-kohna",
+      "name": "Bal Kohna",
+      "state": "Punjab",
+      "latitude": 31.1884,
+      "longitude": 75.38697,
+      "population": 751,
+      "batch": 15,
+      "summary": "Bal Kohna is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bal Kohna",
+        "url": "https://www.geonames.org/10701837/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ajtani": {
+      "citySlug": "ajtani",
+      "name": "Ajtani",
+      "state": "Punjab",
+      "latitude": 31.05347,
+      "longitude": 75.5326,
+      "population": 746,
+      "batch": 15,
+      "summary": "Ajtani is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ajtani",
+        "url": "https://www.geonames.org/10713234/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "gorsian-nihal": {
+      "citySlug": "gorsian-nihal",
+      "name": "Gorsian Nihal",
+      "state": "Punjab",
+      "latitude": 31.02615,
+      "longitude": 75.57967,
+      "population": 733,
+      "batch": 15,
+      "summary": "Gorsian Nihal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Gorsian Nihal",
+        "url": "https://www.geonames.org/10713274/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "tuisentlang": {
+      "citySlug": "tuisentlang",
+      "name": "Tuisentlang",
+      "state": "Mizoram",
+      "latitude": 22.1185,
+      "longitude": 92.68024,
+      "population": 726,
+      "batch": 15,
+      "summary": "Tuisentlang is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Tuisentlang",
+        "url": "https://www.geonames.org/13546237/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bila-nawab": {
+      "citySlug": "bila-nawab",
+      "name": "Bila Nawab",
+      "state": "Punjab",
+      "latitude": 31.14764,
+      "longitude": 75.43194,
+      "population": 716,
+      "batch": 15,
+      "summary": "Bila Nawab is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bila Nawab",
+        "url": "https://www.geonames.org/10701912/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pandori-jagir": {
+      "citySlug": "pandori-jagir",
+      "name": "Pandori Jagir",
+      "state": "Punjab",
+      "latitude": 31.08925,
+      "longitude": 75.53965,
+      "population": 711,
+      "batch": 15,
+      "summary": "Pandori Jagir is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pandori Jagir",
+        "url": "https://www.geonames.org/10713278/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bhandal-buta": {
+      "citySlug": "bhandal-buta",
+      "name": "Bhandal Buta",
+      "state": "Punjab",
+      "latitude": 31.12378,
+      "longitude": 75.57637,
+      "population": 709,
+      "batch": 15,
+      "summary": "Bhandal Buta is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bhandal Buta",
+        "url": "https://www.geonames.org/10713194/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "surja": {
+      "citySlug": "surja",
+      "name": "Surja",
+      "state": "Punjab",
+      "latitude": 31.13161,
+      "longitude": 75.73979,
+      "population": 690,
+      "batch": 15,
+      "summary": "Surja is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Surja",
+        "url": "https://www.geonames.org/10713178/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kun-darorian": {
+      "citySlug": "kun-darorian",
+      "name": "Kun Darorian",
+      "state": "Jammu and Kashmir",
+      "latitude": 32.98056,
+      "longitude": 74.94167,
+      "population": 675,
+      "batch": 15,
+      "summary": "Kun Darorian is a populated place in Jammu and Kashmir, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kun Darorian",
+        "url": "https://www.geonames.org/1432914/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sangha-khalsa": {
+      "citySlug": "sangha-khalsa",
+      "name": "Sangha Khalsa",
+      "state": "Punjab",
+      "latitude": 31.09626,
+      "longitude": 75.54718,
+      "population": 674,
+      "batch": 15,
+      "summary": "Sangha Khalsa is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sangha Khalsa",
+        "url": "https://www.geonames.org/10713229/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "lodhika": {
+      "citySlug": "lodhika",
+      "name": "Lodhika",
+      "state": "Gujarat",
+      "latitude": 22.13388,
+      "longitude": 70.63273,
+      "population": 671,
+      "batch": 15,
+      "summary": "Lodhika is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Lodhika",
+        "url": "https://www.geonames.org/1264861/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "shampur": {
+      "citySlug": "shampur",
+      "name": "Shampur",
+      "state": "Punjab",
+      "latitude": 31.07814,
+      "longitude": 75.65851,
+      "population": 654,
+      "batch": 15,
+      "summary": "Shampur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Shampur",
+        "url": "https://www.geonames.org/10713215/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "thammanwal": {
+      "citySlug": "thammanwal",
+      "name": "Thammanwal",
+      "state": "Punjab",
+      "latitude": 31.02391,
+      "longitude": 75.67387,
+      "population": 647,
+      "batch": 15,
+      "summary": "Thammanwal is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Thammanwal",
+        "url": "https://www.geonames.org/10713249/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "dr-iqubalnagar": {
+      "citySlug": "dr-iqubalnagar",
+      "name": "Dr.Iqubalnagar",
+      "state": "Maharashtra",
+      "latitude": 17.89106,
+      "longitude": 73.3073,
+      "population": 644,
+      "batch": 15,
+      "summary": "Dr.Iqubalnagar is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Dr.Iqubalnagar",
+        "url": "https://www.geonames.org/13645560/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "lit-10703868": {
+      "citySlug": "lit-10703868",
+      "name": "Lit",
+      "state": "Punjab",
+      "latitude": 31.80415,
+      "longitude": 75.76948,
+      "population": 640,
+      "batch": 15,
+      "summary": "Lit is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Lit",
+        "url": "https://www.geonames.org/10703868/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "khela": {
+      "citySlug": "khela",
+      "name": "Khela",
+      "state": "Punjab",
+      "latitude": 31.03866,
+      "longitude": 75.69052,
+      "population": 639,
+      "batch": 15,
+      "summary": "Khela is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Khela",
+        "url": "https://www.geonames.org/10713247/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bondukbangsora": {
+      "citySlug": "bondukbangsora",
+      "name": "Bondukbangsora",
+      "state": "Mizoram",
+      "latitude": 22.03036,
+      "longitude": 92.62964,
+      "population": 628,
+      "batch": 15,
+      "summary": "Bondukbangsora is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bondukbangsora",
+        "url": "https://www.geonames.org/13546230/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "tuichawngtlang": {
+      "citySlug": "tuichawngtlang",
+      "name": "Tuichawngtlang",
+      "state": "Mizoram",
+      "latitude": 22.15235,
+      "longitude": 92.6785,
+      "population": 626,
+      "batch": 15,
+      "summary": "Tuichawngtlang is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Tuichawngtlang",
+        "url": "https://www.geonames.org/13546241/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "rajani": {
+      "citySlug": "rajani",
+      "name": "Rajani",
+      "state": "Maharashtra",
+      "latitude": 20.09158,
+      "longitude": 76.47782,
+      "population": 607,
+      "batch": 15,
+      "summary": "Rajani is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Rajani",
+        "url": "https://www.geonames.org/12557633/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kamtuli": {
+      "citySlug": "kamtuli",
+      "name": "Kamtuli",
+      "state": "Mizoram",
+      "latitude": 22.09834,
+      "longitude": 92.60603,
+      "population": 598,
+      "batch": 15,
+      "summary": "Kamtuli is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kamtuli",
+        "url": "https://www.geonames.org/13546232/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bang": {
+      "citySlug": "bang",
+      "name": "Bang",
+      "state": "Odisha",
+      "latitude": 20.13771,
+      "longitude": 85.72495,
+      "population": 576,
+      "batch": 15,
+      "summary": "Bang is a populated place in Odisha, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bang",
+        "url": "https://www.geonames.org/13608145/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "chak-dhotran": {
+      "citySlug": "chak-dhotran",
+      "name": "Chak Dhotran",
+      "state": "Punjab",
+      "latitude": 31.13445,
+      "longitude": 75.7638,
+      "population": 573,
+      "batch": 15,
+      "summary": "Chak Dhotran is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Chak Dhotran",
+        "url": "https://www.geonames.org/10713637/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "balli-patti": {
+      "citySlug": "balli-patti",
+      "name": "Balli Patti",
+      "state": "Uttar Pradesh",
+      "latitude": 26.76228,
+      "longitude": 82.78782,
+      "population": 566,
+      "batch": 15,
+      "summary": "Balli Patti is a populated place in Uttar Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Balli Patti",
+        "url": "https://www.geonames.org/12688977/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ladhar-khurd": {
+      "citySlug": "ladhar-khurd",
+      "name": "Ladhar Khurd",
+      "state": "Punjab",
+      "latitude": 31.14644,
+      "longitude": 75.89966,
+      "population": 559,
+      "batch": 15,
+      "summary": "Ladhar Khurd is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ladhar Khurd",
+        "url": "https://www.geonames.org/10713658/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "chandpura": {
+      "citySlug": "chandpura",
+      "name": "Chandpura",
+      "state": "Madhya Pradesh",
+      "latitude": 23.85326,
+      "longitude": 77.29714,
+      "population": 557,
+      "batch": 15,
+      "summary": "Chandpura is a populated place in Madhya Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Chandpura",
+        "url": "https://www.geonames.org/11280422/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "3-b-13546273": {
+      "citySlug": "3-b-13546273",
+      "name": "3 B",
+      "state": "Rajasthan",
+      "latitude": 30.13186,
+      "longitude": 73.96828,
+      "population": 556,
+      "batch": 15,
+      "summary": "3 B is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for 3 B",
+        "url": "https://www.geonames.org/13546273/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "patalpani": {
+      "citySlug": "patalpani",
+      "name": "Patalpani",
+      "state": "Madhya Pradesh",
+      "latitude": 23.84141,
+      "longitude": 77.35396,
+      "population": 547,
+      "batch": 15,
+      "summary": "Patalpani is a populated place in Madhya Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Patalpani",
+        "url": "https://www.geonames.org/11280424/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "nashirabad": {
+      "citySlug": "nashirabad",
+      "name": "Nashirabad",
+      "state": "Maharashtra",
+      "latitude": 20.58624,
+      "longitude": 77.15315,
+      "population": 546,
+      "batch": 15,
+      "summary": "Nashirabad is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Nashirabad",
+        "url": "https://www.geonames.org/10503937/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ajani-khurd-12402196": {
+      "citySlug": "ajani-khurd-12402196",
+      "name": "Ajani Khurd",
+      "state": "Maharashtra",
+      "latitude": 20.57302,
+      "longitude": 77.13864,
+      "population": 546,
+      "batch": 15,
+      "summary": "Ajani Khurd is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ajani Khurd",
+        "url": "https://www.geonames.org/12402196/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sidhu-hari-singh": {
+      "citySlug": "sidhu-hari-singh",
+      "name": "Sidhu Hari Singh",
+      "state": "Punjab",
+      "latitude": 31.11239,
+      "longitude": 75.63298,
+      "population": 545,
+      "batch": 15,
+      "summary": "Sidhu Hari Singh is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sidhu Hari Singh",
+        "url": "https://www.geonames.org/10713199/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kalol-ina": {
+      "citySlug": "kalol-ina",
+      "name": "Kalol INA",
+      "state": "Gujarat",
+      "latitude": 23.21074,
+      "longitude": 72.51942,
+      "population": 535,
+      "batch": 15,
+      "summary": "Kalol INA is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kalol INA",
+        "url": "https://www.geonames.org/13157030/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bhodipur": {
+      "citySlug": "bhodipur",
+      "name": "Bhodipur",
+      "state": "Punjab",
+      "latitude": 31.13037,
+      "longitude": 75.39804,
+      "population": 529,
+      "batch": 15,
+      "summary": "Bhodipur is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bhodipur",
+        "url": "https://www.geonames.org/10701856/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bal-hukmi": {
+      "citySlug": "bal-hukmi",
+      "name": "Bal Hukmi",
+      "state": "Punjab",
+      "latitude": 31.12317,
+      "longitude": 75.43855,
+      "population": 513,
+      "batch": 15,
+      "summary": "Bal Hukmi is a populated place in Punjab, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bal Hukmi",
+        "url": "https://www.geonames.org/10701925/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kedarnath": {
+      "citySlug": "kedarnath",
+      "name": "Kedarnath",
+      "state": "Uttarakhand",
+      "latitude": 30.72016,
+      "longitude": 79.06831,
+      "population": 508,
+      "batch": 15,
+      "summary": "Kedarnath is a populated place in Uttarakhand, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kedarnath",
+        "url": "https://www.geonames.org/1267345/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sukma-1255531": {
+      "citySlug": "sukma-1255531",
+      "name": "Sukma",
+      "state": "Chhattisgarh",
+      "latitude": 18.39014,
+      "longitude": 81.65941,
+      "population": 0,
+      "batch": 15,
+      "summary": "Sukma is a populated place in Chhattisgarh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sukma",
+        "url": "https://www.geonames.org/1255531/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "george-town": {
+      "citySlug": "george-town",
+      "name": "George Town",
+      "state": "Tamil Nadu",
+      "latitude": 13.0926,
+      "longitude": 80.2801,
+      "population": 0,
+      "batch": 15,
+      "summary": "George Town is a populated place in Tamil Nadu, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for George Town",
+        "url": "https://www.geonames.org/1271422/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "shahmirpet": {
+      "citySlug": "shahmirpet",
+      "name": "Shahmirpet",
+      "state": "Telangana",
+      "latitude": 17.59455,
+      "longitude": 78.57493,
+      "population": 0,
+      "batch": 15,
+      "summary": "Shahmirpet is a populated place in Telangana, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Shahmirpet",
+        "url": "https://www.geonames.org/1445978/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kalimpong-kruketi": {
+      "citySlug": "kalimpong-kruketi",
+      "name": "Kalimpong, Kruketi",
+      "state": "West Bengal",
+      "latitude": 27.05623,
+      "longitude": 88.46207,
+      "population": 0,
+      "batch": 15,
+      "summary": "Kalimpong, Kruketi is a populated place in West Bengal, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kalimpong, Kruketi",
+        "url": "https://www.geonames.org/8690167/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "neemuch": {
+      "citySlug": "neemuch",
+      "name": "Neemuch",
+      "state": "Rajasthan",
+      "latitude": 24.47639,
+      "longitude": 74.86241,
+      "population": 0,
+      "batch": 15,
+      "summary": "Neemuch is a populated place in Rajasthan, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Neemuch",
+        "url": "https://www.geonames.org/8993350/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "dasarahalli": {
+      "citySlug": "dasarahalli",
+      "name": "Dasarahalli",
+      "state": "Karnataka",
+      "latitude": 13.09904,
+      "longitude": 77.83204,
+      "population": 0,
+      "batch": 15,
+      "summary": "Dasarahalli is a populated place in Karnataka, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Dasarahalli",
+        "url": "https://www.geonames.org/9199850/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "mushalpur": {
+      "citySlug": "mushalpur",
+      "name": "Mushalpur",
+      "state": "Assam",
+      "latitude": 26.5792,
+      "longitude": 91.4261,
+      "population": 0,
+      "batch": 15,
+      "summary": "Mushalpur is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Mushalpur",
+        "url": "https://www.geonames.org/9782274/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "defence-colony": {
+      "citySlug": "defence-colony",
+      "name": "Defence Colony",
+      "state": "Delhi",
+      "latitude": 28.57144,
+      "longitude": 77.23272,
+      "population": 0,
+      "batch": 15,
+      "summary": "Defence Colony is a populated place in Delhi, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Defence Colony",
+        "url": "https://www.geonames.org/10263259/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "hatsingimari": {
+      "citySlug": "hatsingimari",
+      "name": "Hatsingimari",
+      "state": "Assam",
+      "latitude": 25.70986,
+      "longitude": 89.90078,
+      "population": 0,
+      "batch": 15,
+      "summary": "Hatsingimari is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Hatsingimari",
+        "url": "https://www.geonames.org/11185376/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "kamjong": {
+      "citySlug": "kamjong",
+      "name": "Kamjong",
+      "state": "Manipur",
+      "latitude": 24.85846,
+      "longitude": 94.51549,
+      "population": 0,
+      "batch": 15,
+      "summary": "Kamjong is a populated place in Manipur, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Kamjong",
+        "url": "https://www.geonames.org/11875588/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pherzawl": {
+      "citySlug": "pherzawl",
+      "name": "Pherzawl",
+      "state": "Manipur",
+      "latitude": 24.26227,
+      "longitude": 93.18873,
+      "population": 0,
+      "batch": 15,
+      "summary": "Pherzawl is a populated place in Manipur, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pherzawl",
+        "url": "https://www.geonames.org/11875591/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "chandel": {
+      "citySlug": "chandel",
+      "name": "Chandel",
+      "state": "Manipur",
+      "latitude": 24.32987,
+      "longitude": 94.00379,
+      "population": 0,
+      "batch": 15,
+      "summary": "Chandel is a populated place in Manipur, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Chandel",
+        "url": "https://www.geonames.org/11875592/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "tengnoupal": {
+      "citySlug": "tengnoupal",
+      "name": "Tengnoupal",
+      "state": "Manipur",
+      "latitude": 24.3855,
+      "longitude": 94.1472,
+      "population": 0,
+      "batch": 15,
+      "summary": "Tengnoupal is a populated place in Manipur, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Tengnoupal",
+        "url": "https://www.geonames.org/11875594/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "garamur": {
+      "citySlug": "garamur",
+      "name": "Garamur",
+      "state": "Assam",
+      "latitude": 26.94891,
+      "longitude": 94.17205,
+      "population": 0,
+      "batch": 15,
+      "summary": "Garamur is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Garamur",
+        "url": "https://www.geonames.org/11875605/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "bishramganj": {
+      "citySlug": "bishramganj",
+      "name": "Bishramganj",
+      "state": "Tripura",
+      "latitude": 23.60582,
+      "longitude": 91.34355,
+      "population": 0,
+      "batch": 15,
+      "summary": "Bishramganj is a populated place in Tripura, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Bishramganj",
+        "url": "https://www.geonames.org/11875607/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "ampati": {
+      "citySlug": "ampati",
+      "name": "Ampati",
+      "state": "Meghalaya",
+      "latitude": 25.4623,
+      "longitude": 89.93325,
+      "population": 0,
+      "batch": 15,
+      "summary": "Ampati is a populated place in Meghalaya, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Ampati",
+        "url": "https://www.geonames.org/11875610/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "khliehriat": {
+      "citySlug": "khliehriat",
+      "name": "Khliehriat",
+      "state": "Meghalaya",
+      "latitude": 25.35776,
+      "longitude": 92.36643,
+      "population": 0,
+      "batch": 15,
+      "summary": "Khliehriat is a populated place in Meghalaya, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Khliehriat",
+        "url": "https://www.geonames.org/11875611/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "shahdara": {
+      "citySlug": "shahdara",
+      "name": "Shahdara",
+      "state": "Delhi",
+      "latitude": 28.60311,
+      "longitude": 77.13988,
+      "population": 0,
+      "batch": 15,
+      "summary": "Shahdara is a populated place in Delhi, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Shahdara",
+        "url": "https://www.geonames.org/11875612/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "hamren-11875615": {
+      "citySlug": "hamren-11875615",
+      "name": "Hamren",
+      "state": "Assam",
+      "latitude": 25.93354,
+      "longitude": 92.61656,
+      "population": 0,
+      "batch": 15,
+      "summary": "Hamren is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Hamren",
+        "url": "https://www.geonames.org/11875615/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "sonari-11875616": {
+      "citySlug": "sonari-11875616",
+      "name": "Sonari",
+      "state": "Assam",
+      "latitude": 27.07344,
+      "longitude": 95.02753,
+      "population": 0,
+      "batch": 15,
+      "summary": "Sonari is a populated place in Assam, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Sonari",
+        "url": "https://www.geonames.org/11875616/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "pangin": {
+      "citySlug": "pangin",
+      "name": "Pangin",
+      "state": "Arunachal Pradesh",
+      "latitude": 28.21022,
+      "longitude": 94.98873,
+      "population": 0,
+      "batch": 15,
+      "summary": "Pangin is a populated place in Arunachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Pangin",
+        "url": "https://www.geonames.org/11875617/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "lemmi": {
+      "citySlug": "lemmi",
+      "name": "Lemmi",
+      "state": "Arunachal Pradesh",
+      "latitude": 27.14665,
+      "longitude": 93.24643,
+      "population": 0,
+      "batch": 15,
+      "summary": "Lemmi is a populated place in Arunachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Lemmi",
+        "url": "https://www.geonames.org/12165954/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "hnahthial-12165957": {
+      "citySlug": "hnahthial-12165957",
+      "name": "Hnahthial",
+      "state": "Mizoram",
+      "latitude": 22.91,
+      "longitude": 92.76,
+      "population": 0,
+      "batch": 15,
+      "summary": "Hnahthial is a populated place in Mizoram, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Hnahthial",
+        "url": "https://www.geonames.org/12165957/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "amaravati-12465603": {
+      "citySlug": "amaravati-12465603",
+      "name": "Amaravati",
+      "state": "Andhra Pradesh",
+      "latitude": 16.54167,
+      "longitude": 80.51528,
+      "population": 0,
+      "batch": 15,
+      "summary": "Amaravati is a populated place in Andhra Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Amaravati",
+        "url": "https://www.geonames.org/12465603/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "haveli": {
+      "citySlug": "haveli",
+      "name": "Haveli",
+      "state": "Maharashtra",
+      "latitude": 18.42966,
+      "longitude": 73.88218,
+      "population": 0,
+      "batch": 15,
+      "summary": "Haveli is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Haveli",
+        "url": "https://www.geonames.org/12501199/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "jaoli": {
+      "citySlug": "jaoli",
+      "name": "Jaoli",
+      "state": "Maharashtra",
+      "latitude": 17.94817,
+      "longitude": 73.62172,
+      "population": 0,
+      "batch": 15,
+      "summary": "Jaoli is a populated place in Maharashtra, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Jaoli",
+        "url": "https://www.geonames.org/12501200/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "nautan": {
+      "citySlug": "nautan",
+      "name": "Nautan",
+      "state": "Bihar",
+      "latitude": 26.72028,
+      "longitude": 84.47538,
+      "population": 0,
+      "batch": 15,
+      "summary": "Nautan is a populated place in Bihar, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Nautan",
+        "url": "https://www.geonames.org/12503488/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "khanpur-12503492": {
+      "citySlug": "khanpur-12503492",
+      "name": "Khanpur",
+      "state": "Gujarat",
+      "latitude": 23.28352,
+      "longitude": 73.68152,
+      "population": 0,
+      "batch": 15,
+      "summary": "Khanpur is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Khanpur",
+        "url": "https://www.geonames.org/12503492/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "tato": {
+      "citySlug": "tato",
+      "name": "Tato",
+      "state": "Arunachal Pradesh",
+      "latitude": 28.52754,
+      "longitude": 94.37249,
+      "population": 0,
+      "batch": 15,
+      "summary": "Tato is a populated place in Arunachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Tato",
+        "url": "https://www.geonames.org/12519375/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "raga": {
+      "citySlug": "raga",
+      "name": "Raga",
+      "state": "Arunachal Pradesh",
+      "latitude": 27.79931,
+      "longitude": 94.07426,
+      "population": 0,
+      "batch": 15,
+      "summary": "Raga is a populated place in Arunachal Pradesh, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Raga",
+        "url": "https://www.geonames.org/12524289/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    },
+    "harsiddhi-society-ram-talavadi-mission-road-nadiad": {
+      "citySlug": "harsiddhi-society-ram-talavadi-mission-road-nadiad",
+      "name": "Harsiddhi Society, Ram Talavadi, Mission Road, Nadiad",
+      "state": "Gujarat",
+      "latitude": 22.70478,
+      "longitude": 72.84291,
+      "population": 0,
+      "batch": 15,
+      "summary": "Harsiddhi Society, Ram Talavadi, Mission Road, Nadiad is a populated place in Gujarat, India. This page is in Nukkad Network's research queue. We are still comparing community discussions, local publications and current reviews before recommending how to experience it like a local.",
+      "source": {
+        "title": "GeoNames record for Harsiddhi Society, Ram Talavadi, Mission Road, Nadiad",
+        "url": "https://www.geonames.org/13607664/",
+        "checked": "2026-10-17",
+        "type": "directory"
+      },
+      "researchStage": "directory_baseline",
+      "localEvidenceStatus": "not_started",
+      "fullGuideStatus": "not_started"
+    }
+  }
+}

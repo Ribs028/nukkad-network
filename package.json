@@ -7,6 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
+    "research:cities": "node scripts/build-city-catalog.mjs",
+    "research:batch": "node scripts/research-city-batch.mjs",
+    "research:publish-community": "python scripts/publish-community-batch.py",
+    "research:validate-batch-one": "python scripts/validate-batch-one.py",
     "preview": "vite preview"
   },
   "dependencies": {
